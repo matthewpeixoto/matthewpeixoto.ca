@@ -1,0 +1,23 @@
+.nav {
+  min-width: 320px;
+
+  background-color: rgba(240, 240, 240, 0.9);
+}
+
+.nav-link {
+  transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  color: var(--color-neutral-dark);
+}
+
+.nav-link:hover {
+  opacity: .65;
+}
+
+.nav-link:focus {
+  outline-offset: -7px;
+}
+
+.nav-link:active {
+  outline: none;
+}

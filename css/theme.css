@@ -1,0 +1,59 @@
+:root {
+  --color-accent: #0091ea;
+  --color-focus: rgba(0, 145, 234, 0.5);
+
+  --color-neutral-ultralight: #fafafa;
+  --color-neutral-light: #f2f2f2;
+  --color-neutral-medium: #d6d6d6;
+  --color-neutral-dark: #111;
+
+  --font-primary: roboto, sans-serif;
+}
+
+body {
+  min-width: 320px;
+
+  color: var(--color-neutral-dark);
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 1px;
+}
+
+a:focus, [tabindex="0"]:focus {
+  outline-offset: 1px;
+}
+
+.main {
+  max-width: 2560px;
+}
+
+.bg-c-ul {
+  background-color:  var(--color-neutral-ultralight);
+}
+
+.bg-c-l {
+  background-color:  var(--color-neutral-light);
+}
+
+.bg-c-b {
+  background-color:  #000;
+}

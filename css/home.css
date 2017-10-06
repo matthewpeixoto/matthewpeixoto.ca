@@ -1,0 +1,68 @@
+.unit-wrapper {
+  height: 31.2rem;
+}
+
+.unit-wrapper:focus {
+  outline-offset: -3px;
+}
+
+.unit-copy-wrapper {
+  color: var(--color-neutral-dark);
+}
+
+.unit-copy-wrapper-white {
+  color: #fff;
+}
+
+.unit-image {
+  height: calc(31.2rem - 9.86rem);
+  width: 14.8rem;
+
+  background-image: url("http://via.placeholder.com/512x768");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.unit-image-sparmetric {
+  background-image: url("../images/home/sparmetric/s-sparmetric.jpg");
+}
+
+.sparmetric-wrapper {
+  background-color: #000;
+}
+
+.moments-wrapper {
+  background-color: #e0f2f1;
+}
+
+@media only screen and (min-width: 46em) {
+
+  .unit-wrapper {
+    height: 39.2rem;
+  }
+
+  .unit-image {
+    height: calc(39.2rem - 11.31rem);
+    width: calc(39.2rem - 11.31rem);
+
+    background-image: url("http://via.placeholder.com/1024x1024");
+  }
+
+  .unit-image-sparmetric {
+    background-image: url("../images/home/sparmetric/m-sparmetric.jpg");
+  }
+
+}
+
+@media only screen and (min-width: 67em) {
+
+  .unit-wrapper {
+    height: 40.5rem;
+  }
+
+  .unit-image {
+    height: calc(40.5rem - 12.49rem);
+    width: calc(40.5rem - 12.49rem);
+  }
+
+}
