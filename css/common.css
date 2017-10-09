@@ -54,6 +54,82 @@ a:focus, [tabindex="0"]:focus {
   background-color:  var(--color-neutral-light);
 }
 
-.bg-c-b {
-  background-color:  #000;
+.theme-dark-1 {
+  background-color: #000;
+
+  color: #fff;
+}
+
+.theme-dark-2 {
+  background-color: #121212;
+
+  color: #fff;
+}
+
+.text-left-center {
+  text-align: left;
+}
+
+.push-4 {
+  margin-bottom: 5.2rem;
+}
+
+.push-r-2 {
+  margin-right: 2.6rem;
+}
+
+.pad-t-4 {
+  padding-top: 5.2rem;
+}
+
+.pad-b-4 {
+  padding-bottom: 5.2rem;
+}
+
+@media only screen and (min-width: 46em) {
+
+  .text-left-center {
+    text-align: center;
+  }
+
+  .push-4 {
+    margin-bottom: 5.6rem;
+  }
+
+  .push-m-0 {
+    margin-bottom: 0;
+  }
+
+  .push-r-2 {
+    margin-right: 2.8rem;
+  }
+
+  .pad-t-4 {
+    padding-top: 5.6rem;
+  }
+
+  .pad-b-4 {
+    padding-bottom: 5.6rem;
+  }
+
+}
+
+@media only screen and (min-width: 67em) {
+
+  .push-4 {
+    margin-bottom: 6rem;
+  }
+
+  .push-r-2 {
+    margin-right: 3rem;
+  }
+
+  .pad-t-4 {
+    padding-top: 6rem;
+  }
+
+  .pad-b-4 {
+    padding-bottom: 6rem;
+  }
+
 }

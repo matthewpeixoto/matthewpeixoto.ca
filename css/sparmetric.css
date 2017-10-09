@@ -1,0 +1,18 @@
+.sparmetric-content {
+  background-color: #000;
+  color: #fff;
+}
+
+.image-sparmetric-ux {
+  background-image: url("../images/sparmetric/sparmetric-ux.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image-get-connected {
+  background-image: url("../images/sparmetric/sparmetric-ux.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

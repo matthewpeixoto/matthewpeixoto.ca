@@ -1,7 +1,7 @@
 .nav {
   min-width: 320px;
 
-  background-color: var(--color-neutral-light);
+  background-color: rgba(240, 240, 240, 0.9);
 }
 
 .nav-link {
