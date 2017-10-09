@@ -23,6 +23,11 @@
   background-size: cover;
 }
 
+.intro-unit-image {
+  height: calc(37.7rem - 18.81rem);
+  width: 14.8rem;
+}
+
 .unit-image-sparmetric {
   background-image: url("../images/home/sparmetric/s-sparmetric.jpg");
 }
@@ -37,6 +42,10 @@
 
 @media only screen and (min-width: 46em) {
 
+  .intro-unit-wrapper {
+    height: 46.6rem;
+  }
+
   .unit-wrapper {
     height: 39.2rem;
   }
@@ -46,6 +55,11 @@
     width: calc(39.2rem - 11.31rem);
 
     background-image: url("http://via.placeholder.com/1024x1024");
+  }
+
+  .intro-unit-image {
+    height: calc(46.6rem - 15.63rem);
+    width: 14.8rem;
   }
 
   .unit-image-sparmetric {
