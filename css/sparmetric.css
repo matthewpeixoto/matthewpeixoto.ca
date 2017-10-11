@@ -3,11 +3,22 @@
   color: #fff;
 }
 
-.image-sparmetric-ux {
-  background-image: url("../images/sparmetric/sparmetric-ux.jpg");
+.image-sparmetric {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: 25% center;
+}
+
+.image-sparmetric-ux {
+  background-image: url("../images/sparmetric/sparmetric-ux.jpg");
+}
+
+.image-sparmetric-personas {
+  background-image: url("../images/sparmetric/sparmetric-personas.jpg");
+}
+
+.image-sparmetric-visualdesign {
+  background-image: url("../images/sparmetric/sparmetric-visualdesign.jpg");
 }
 
 .image-get-connected {
