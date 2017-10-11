@@ -6,11 +6,11 @@
   outline-offset: -3px;
 }
 
-.unit-copy-wrapper {
+.font-dark {
   color: var(--color-neutral-dark);
 }
 
-.unit-copy-wrapper-white {
+.font-light {
   color: #fff;
 }
 
@@ -30,14 +30,6 @@
 
 .unit-image-sparmetric {
   background-image: url("../images/home/sparmetric/s-sparmetric.jpg");
-}
-
-.sparmetric-wrapper {
-  background-color: #000;
-}
-
-.moments-wrapper {
-  background-color: #e0f2f1;
 }
 
 @media only screen and (min-width: 46em) {

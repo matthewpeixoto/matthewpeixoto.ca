@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Matthew Peixoto</title>
+  <title>{{page.title}}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
@@ -12,21 +12,21 @@
   <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/home.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/sparmetric.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 </head>
-<body>
+<body class="{{page.theme}}">
 
-  <nav class="nav absolute w-1" role="navigation">
+  <nav class="nav" role="navigation">
     <div class="wrapper gutter-1-2">
       <ul class="list-group-inline push-0 text-center">
-        <li><a class="nav-link icon-link ib island-1-2" href="{{site.baseurl}}/index.html"><h1 class="kilo push-0">Matthew Peixoto</h1></a></li>
+        <li><a class="logo icon-link ib island-1-2" href="{{site.baseurl}}/index.html"><h1 class="mega push-0">Matthew Peixoto</h1></a></li>
       </ul>
     </div>
   </nav>
 
   {{content}}
 
-  <footer class="footer gutter bg-c-l" role="contentinfo">
+  <footer class="footer gutter theme-light" role="contentinfo">
     <div class="wrapper">
       <ul class="list-group-inline push-0 pad-t-2 pad-b-2 footer-contact">
         <li class="push w-1">Send me a message at <a href="mailto:hey@matthewpeixoto.ca">hey@matthewpeixoto.ca</a></li>
