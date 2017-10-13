@@ -2,194 +2,113 @@
 layout: default
 title: SparMetric - Matthew Peixoto
 theme: dark
+shorttitle: SparMetric
+subtitle: Train smarter.
+class: sparmetric
 ---
 
-<main role="main">
-  <section class="theme-ultradark pad-t-2">
-    <div class="theme-dark-1 gutter pad-t-4 pad-b-4">
-      <div class="max-length push-2">
-        <img class="img-flex" src="http://placehold.it/512x768">
-      </div>
-      <div class="text-left-center">
-        <h1 class="yotta">SparMetric</h1>
-        <p class="giga medium max-length push-0">SparMetric takes your training sessions to a whole new level. It provides in-depth statistics and analysis on every strike thrown and movement made. Overviews of your strengths and weaknesses. Mid-session tips to help you make crucial adjustments. Achievements to keep you motivated. And the edge to help you become the best martial artist you can be.</p>
-      </div>
+<section class="theme-ultradark pad-t-2">
+  <div class="theme-dark-1 gutter pad-t-4 pad-b-4">
+    <div class="max-length push-2">
+      <img class="img-flex" src="http://placehold.it/512x768">
     </div>
-  </section>
+    <div class="text-left-center">
+      <h1 class="yotta">SparMetric</h1>
+      <p class="giga medium max-length push-0">SparMetric takes your training sessions to a whole new level. It provides in-depth statistics and analysis on every strike thrown and movement made. Overviews of your strengths and weaknesses. Mid-session tips to help you make crucial adjustments. Achievements to keep you motivated. And the edge to help you become the best martial artist you can be.</p>
+    </div>
+  </div>
+</section>
 
-  <section class="theme-dark">
-    <div class="h-w-1 relative">
-      <div class="text-left-center gutter pin-c w-1">
-        <div class="wrapper">
-          <h2 class="giga push-1-2">User Experience</h2>
-          <h3 class="zetta push-0">Designed for martial artists.</h3>
-        </div>
-      </div>
-      <figure class="image-sparmetric image-sparmetric-ux h-1 w-1 push-0"></figure>
-    </div>
-    <div class="theme-ultradark gutter pad-t-4 pad-b-4">
-      <div class="wrapper">
-        <div class="text-center push-2">
-          <img class="img-flex" src="http://placehold.it/512x512" alt="">
-        </div>
-        <div class="grid">
-          <div class="unit s-1 m-1-2">
-            <h4 class="peta push-r push-m-0">Get connected.</h4>
-          </div>
-          <div class="unit s-1 m-1-2">
-            <p class="max-length-no-center push-0">The more SparSensors paired, the better. Headgear SparSensors track head movement and head damage. Body SparSensors track overall core movement and body damage. Glove SparSensors track punch speed, accuracy, and power. And Shinguard SparSensors track kick speed, accuracy, and power — as well as footwork and leg damage.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="theme-dark gutter pad-t-4 pad-b-4">
-      <div class="wrapper">
-        <div class="text-center push-2">
-          <img class="img-flex" src="http://placehold.it/512x512" alt="">
-        </div>
-        <div class="grid">
-          <div class="unit s-1 m-1-2">
-            <h4 class="peta push-r-2 push-m-0">Ready, set, spar.</h4>
-          </div>
-          <div class="unit s-1 m-1-2">
-            <p class="max-length-no-center push-0">Set the round length, rest length, and number of rounds — then just hit play. As you spar, SparMetric will automatically record and analysis every punch, kick, movement, and impact. And as you rest between rounds, SparMetric will let you know what you did right and what you did wrong so you can make those crucial mid-session adjustments.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="theme-ultradark gutter pad-t-4 pad-b-4">
-      <div class="wrapper">
-        <div class="text-center push-2">
-          <img class="img-flex" src="http://placehold.it/512x512" alt="">
-        </div>
-        <div class="grid">
-          <div class="unit s-1 m-1-2">
-            <h4 class="peta push-r-2 push-m-0">Every stat you’ll ever need.</h4>
-          </div>
-          <div class="unit s-1 m-1-2">
-            <p class="max-length-no-center push-0">SparMetric gives you every stat you’ll ever need to improve your training and keep you injury-free. These detailed stats give you and your coaches a deeper look into your skillset and are a powerful tool in helping you hone your strengths and improve on your weaknesses. And with a Headgear Sensor, you’ll know if you’ve taken too much head damage so you can stay in the best shape possible.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="theme-dark gutter pad-t-4 pad-b-4">
-      <div class="wrapper">
-        <div class="text-center push-2">
-          <img class="img-flex" src="http://placehold.it/512x512" alt="">
-        </div>
-        <div class="grid">
-          <div class="unit s-1 m-1-2">
-            <h4 class="peta push-r-2 push-m-0">Reach for the stars.</h4>
-          </div>
-          <div class="unit s-1 m-1-2">
-            <p class="max-length-no-center push-0">Achievements can help make training fun, motivate you to push harder, and even give you some well-earned bragging rights.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<section>
+  {% include section-intro.html
+    title="User Experience"
+    subtitle="Designed for martial artists."
+    class="user-experience"
+  %}
+  {% include sub-section.html
+    theme="ultradark"
+    title="Get connected"
+    desc="The more SparSensors paired, the better. Headgear SparSensors track head movement and head damage. Body SparSensors track overall core movement and body damage. Glove SparSensors track punch speed, accuracy, and power. And Shinguard SparSensors track kick speed, accuracy, and power — as well as footwork and leg damage."
+  %}
+  {% include sub-section.html
+    theme="dark"
+    title="Ready, set, spar."
+    desc="Set the round length, rest length, and number of rounds — then just hit play. As you spar, SparMetric will automatically record and analysis every punch, kick, movement, and impact. And as you rest between rounds, SparMetric will let you know what you did right and what you did wrong so you can make those crucial mid-session adjustments."
+  %}
+  {% include sub-section.html
+    theme="ultradark"
+    title="Every stat you’ll ever need."
+    desc="SparMetric gives you every stat you’ll ever need to improve your training and keep you injury-free. These detailed stats give you and your coaches a deeper look into your skillset and are a powerful tool in helping you hone your strengths and improve on your weaknesses. And with a Headgear Sensor, you’ll know if you’ve taken too much head damage so you can stay in the best shape possible."
+  %}
+    {% include sub-section.html
+    theme="dark"
+    title="Reach for the stars."
+    desc="Achievements can help make training fun, motivate you to push harder, and even give you some well-earned bragging rights."
+  %}
+</section>
 
-  <section class="theme-ultradark">
-    <div class="h-w-1 relative">
-      <div class="text-left-center gutter pin-c w-1">
-        <div class="wrapper">
-          <h2 class="giga push-1-2">Personas</h2>
-          <h3 class="zetta push-0">Designed for every level.</h3>
-        </div>
+<section>
+  {% include section-intro.html
+    title="Personas"
+    subtitle="Designed for every level."
+    class="personas"
+  %}
+  <div class="theme-ultradark gutter pad-t-4 pad-b-4">
+    <div class="wrapper">
+      <div class="text-center push-2">
+        <img class="img-flex" src="http://placehold.it/512x512" alt="">
       </div>
-      <figure class="image-sparmetric image-sparmetric-personas h-1 w-1 push-0"></figure>
+      <blockquote class="push-0">
+        <p class="max-length-no-center giga">“I’m a professional mixed martial artists. I was born to fight and have been training since I was 8 years old. SparMetric is amazing because it helps my coaches and I see the little mistakes I make during sparring that could cost me a fight. My team studies the stats for each sparring session to help me perfect my skills and keep me healthy for fights.”</p>
+        <footer>— <cite>Carlos Junior</cite></footer>
+      </blockquote>
     </div>
-    <div class="theme-ultradark gutter pad-t-4 pad-b-4">
-      <div class="wrapper">
-        <div class="text-center push-2">
-          <img class="img-flex" src="http://placehold.it/512x512" alt="">
-        </div>
-        <blockquote class="push-0">
-          <p class="max-length-no-center giga">“I’m a professional mixed martial artists. I was born to fight and have been training since I was 8 years old. SparMetric is amazing because it helps my coaches and I see the little mistakes I make during sparring that could cost me a fight. My team studies the stats for each sparring session to help me perfect my skills and keep me healthy for fights.”</p>
-          <footer>— <cite>Carlos Junior</cite></footer>
-        </blockquote>
+  </div>
+  <div class="theme-dark gutter pad-t-4 pad-b-4">
+    <div class="wrapper">
+      <div class="text-center push-2">
+        <img class="img-flex" src="http://placehold.it/512x512" alt="">
       </div>
+      <blockquote class="push-0">
+        <p class="max-length-no-center giga">“I train martial arts because it keeps me in excellent shape and I love the thrill of sparring. SparMetric helps me see the improvements I’ve been making and the achievements motivate me to push harder."</p>
+        <footer>— <cite>Irene Fraser</cite></footer>
+      </blockquote>
     </div>
-    <div class="theme-dark gutter pad-t-4 pad-b-4">
-      <div class="wrapper">
-        <div class="text-center push-2">
-          <img class="img-flex" src="http://placehold.it/512x512" alt="">
-        </div>
-        <blockquote class="push-0">
-          <p class="max-length-no-center giga">“I train martial arts because it keeps me in excellent shape and I love the thrill of sparring. SparMetric helps me see the improvements I’ve been making and the achievements motivate me to push harder."</p>
-          <footer>— <cite>Irene Fraser</cite></footer>
-        </blockquote>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 
-  <section class="theme-dark">
-    <div class="h-w-1 relative">
-      <div class="text-left-center gutter pin-c w-1">
-        <div class="wrapper">
-          <h2 class="giga push-1-2">Visual Design</h2>
-          <h3 class="zetta push-0">Designed with a purpose.</h3>
-        </div>
-      </div>
-      <figure class="image-sparmetric image-sparmetric-visualdesign h-1 w-1 push-0"></figure>
-    </div>
-    <div class="theme-ultradark gutter pad-t-4 pad-b-4">
-      <div class="wrapper">
-        <div class="text-center push-2">
-          <img class="img-flex" src="http://placehold.it/512x512" alt="">
-        </div>
-        <div class="grid">
-          <div class="unit s-1 m-1-2">
-            <h4 class="peta push-r-2 push-m-0">Not just any colours.</h4>
-          </div>
-          <div class="unit s-1 m-1-2">
-            <p class="max-length-no-center push-0">SparMetric’s colour palette is sourced from Google Material and is inspired by MMA and boxing design themes. The primary colours of black and dark greys set a subdued and serious tone while the yellow accent colour adds a sense of action and energy. The secondary colours are used to represent the red and blue corners found in MMA and boxing matches are used to represent their respective stats.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-     <div class="theme-dark gutter pad-t-4 pad-b-4">
-      <div class="wrapper">
-        <div class="text-center push-2">
-          <img class="img-flex" src="http://placehold.it/512x512" alt="">
-        </div>
-        <div class="grid">
-          <div class="unit s-1 m-1-2">
-            <h4 class="peta push-r-2 push-m-0">Just the right type.</h4>
-          </div>
-          <div class="unit s-1 m-1-2">
-            <p class="max-length-no-center push-0">SparMetric strictly follows the Google Material typography guidelines. Roboto is the standard typeface for Android and is extremely legible at any size and also works great on dark backgrounds. The provided Google Material typography styles are used for a consistent and familiar experience.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<section>
+  {% include section-intro.html
+    title="Visual Design"
+    subtitle="Designed with meaning."
+    class="visual-design"
+  %}
+  {% include sub-section.html
+    theme="ultradark"
+    title="Not just any colours."
+    desc="SparMetric’s colour palette is sourced from Google Material and is inspired by MMA and boxing design themes. The primary colours of black and dark greys set a subdued and serious tone while the yellow accent colour adds a sense of action and energy. The secondary colours are used to represent the red and blue corners found in MMA and boxing matches are used to represent their respective stats."
+  %}
+  {% include sub-section.html
+    theme="dark"
+    title="Just the right type."
+    desc="SparMetric strictly follows the Google Material typography guidelines. Roboto is the standard typeface for Android and is extremely legible at any size and also works great on dark backgrounds. The provided Google Material typography styles are used for a consistent and familiar experience."
+  %}
+</section>
 
-  <section class="theme-dark">
-    <div class="h-w-1 relative">
-      <div class="text-left-center gutter pin-c w-1">
-        <div class="wrapper">
-          <h2 class="giga push-1-2">Ideation</h2>
-          <h3 class="zetta push-0">Every great idea starts with a problem and a pencil.</h3>
-        </div>
-      </div>
-      <figure class="image-sparmetric image-sparmetric-visualdesign h-1 w-1 push-0"></figure>
-    </div>
-    <div class="theme-ultradark gutter pad-t-4 pad-b-4">
-      <div class="wrapper">
-        <div class="text-center push-2">
-          <img class="img-flex" src="http://placehold.it/512x512" alt="">
-        </div>
-        <div class="grid">
-          <div class="unit s-1 m-1-2">
-            <h4 class="peta push-r-2 push-m-0">User stories.</h4>
-          </div>
-          <div class="unit s-1 m-1-2">
-            <p class="max-length-no-center push-0">Martial artists want a way to see a quick assessment of their performance in between rounds so that they can make the necessary adjustments in the following round. High-level martial artists and their coaches want a way to see detailed statistics about each sparring session so that they can perfect their training and skill set. Lower level martial artists want a way to unlock achievements to help them set goals and motivate them to improve.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-</main>
+<section>
+  {% include section-intro.html
+    title="Ideation"
+    subtitle="Designed to solve a problem."
+    class="visual-design"
+  %}
+  {% include sub-section.html
+    theme="ultradark"
+    title="User stories."
+    desc="Martial artists want a way to see a quick assessment of their performance in between rounds so that they can make the necessary adjustments in the following round. High-level martial artists and their coaches want a way to see detailed statistics about each sparring session so that they can perfect their training and skill set. Lower level martial artists want a way to unlock achievements to help them set goals and motivate them to improve."
+  %}
+  {% include sub-section.html
+    theme="dark"
+    title="User stories."
+    desc="Martial artists want a way to see a quick assessment of their performance in between rounds so that they can make the necessary adjustments in the following round. High-level martial artists and their coaches want a way to see detailed statistics about each sparring session so that they can perfect their training and skill set. Lower level martial artists want a way to unlock achievements to help them set goals and motivate them to improve."
+  %}
+</section>

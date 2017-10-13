@@ -1,2 +1,2 @@
-baseurl: /matthewpeixoto.ca
-exclude: ['README.md']
+permalink: pretty
+baseurl: "/matthewpeixoto.ca"

@@ -8,6 +8,8 @@
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/theme.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/nav.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/home.css" rel="stylesheet">
@@ -18,16 +20,20 @@
 
   <nav class="nav gutter pad-t-1-2 pad-b-1-2 fixed w-1 zindex-1000" role="navigation">
     <div class="grid grid-middle wrapper">
-      <h1 class="unit s-1-2 mega push-0">
-        <a class="logo ib" href="{{site.baseurl}}/index.html">Matthew Peixoto</a>
-      </h1>
+      <div class="unit s-1-2">
+        <h1 class="mega push-0 ib">
+          <a class="logo ib" href="{{site.baseurl}}/">Matthew Peixoto</a>
+        </h1>
+      </div>
       <div class="unit s-1-2 text-right">
         <a class="btn micro" href="mailto:hey@matthewpeixoto.ca">Send message</a>
       </div>
     </div>
   </nav>
 
-  {{content}}
+  <main>
+    {{content}}
+  </main>
 
   <footer class="footer gutter theme-light" role="contentinfo">
     <div class="wrapper">

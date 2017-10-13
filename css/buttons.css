@@ -1,0 +1,45 @@
+.btn {
+  background-color: var(--color-accent);
+  border: none;
+}
+
+.btn:focus {
+  background-color: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-focus);
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #00b0ff;
+}
+
+.btn-link,
+.btn-link:focus {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline-color: var(--color-focus);
+}
+
+a:focus, [tabindex="0"]:focus {
+  outline-offset: 1px;
+}
+
+a:active {
+  box-shadow: none;
+  outline: none;
+}
