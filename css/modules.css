@@ -1,7 +1,7 @@
 /*
  * Modulifier || Code released under the UNLICENSE
  * Code under other copyrights & licenses listed below.
- * https://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;positioning;buttons;accessibility;print
+ * https://modulifier.web-dev.tools/#responsive;images;list-group;embed;icons;hidden;positioning;buttons;accessibility;print
  */
 
 @-moz-viewport { width: device-width; scale: 1; }
@@ -209,25 +209,140 @@ svg.img-flex {
   width: 100%;
 }
 
-.media {
+.icon {
+  display: inline-block;
+  position: relative;
+  background: transparent none no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.i-16, .i--16 {
+  height: 16px;
+  width: 16px;
+}
+
+.i-18, .i--18 {
+  height: 18px;
+  width: 18px;
+}
+
+.i-20, .i--20 {
+  height: 20px;
+  width: 20px;
+}
+
+.i-24, .i--24 {
+  height: 24px;
+  width: 24px;
+}
+
+.i-32, .i--32 {
+  height: 32px;
+  width: 32px;
+}
+
+.i-48, .i--48 {
+  height: 48px;
+  width: 48px;
+}
+
+.i-64, .i--64 {
+  height: 64px;
+  width: 64px;
+}
+
+.i-96, .i--96 {
+  height: 96px;
+  width: 96px;
+}
+
+.i-128, .i--128 {
+  height: 128px;
+  width: 128px;
+}
+
+.i-192, .i--192 {
+  height: 192px;
+  width: 192px;
+}
+
+.i-256, .i--256 {
+  height: 256px;
+  width: 256px;
+}
+
+.icon img,
+.icon svg {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  fill: currentColor;
+}
+
+.icon-label {
+  vertical-align: middle;
+}
+
+.icon-link,
+.icon-link:focus,
+.icon-link:hover {
+  text-decoration: none;
+}
+
+[hidden], .hidden {
+  /* stylelint-disable declaration-no-important */
+  display: none !important;
+  visibility: hidden !important;
+  /* stylelint-enable */
+}
+
+.visually-hidden {
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+}
+
+.visually-hidden.focusable:active, .visually-hidden.focusable:focus {
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  clip: auto;
+  clip-path: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.chop,
+.crop {
   overflow: hidden;
 }
 
-.media-img, .media__img {
-  float: left;
-}
-
-.media-img-reversed, .media__img--reversed {
-  float: right;
-}
-
-.media-img-stacked, .media__img--stacked {
-  float: none;
-}
-
-.media-body, .media__body {
+.truncate {
+  max-width: 100%;
   overflow: hidden;
-  min-width: 12em; /* Slightly less than 200px, responsiveness built in */
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.scrollable {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .clearfix::after {

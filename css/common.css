@@ -1,17 +1,3 @@
-:root {
-  --color-accent: #0091ea;
-  --color-focus: rgba(0, 145, 234, 0.5);
-
-  --color-ultralight: #fafafa;
-  --color-light: #f2f2f2;
-  --color-dark: #1a1a1a;
-  --color-ultradark: #0f0f0f;
-
-  --color-text: #111;
-
-  --font-primary: roboto, sans-serif;
-}
-
 body {
   min-width: 320px;
 
@@ -56,6 +42,14 @@ h6 {
   padding-bottom: 5.2rem;
 }
 
+.wrapper {
+  max-width: 56em;
+}
+
+.wrapper-no-center {
+  max-width: 56em;
+}
+
 @media only screen and (min-width: 46em) {
 
   .text-left-center {
@@ -82,6 +76,10 @@ h6 {
     padding-bottom: 5.6rem;
   }
 
+  .clear-nav {
+    padding-top: 3.1rem;
+  }
+
 }
 
 @media only screen and (min-width: 67em) {
@@ -100,6 +98,10 @@ h6 {
 
   .pad-b-4 {
     padding-bottom: 6rem;
+  }
+
+  .clear-nav {
+    padding-top: 3.4rem;
   }
 
 }

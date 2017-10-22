@@ -3,27 +3,38 @@
   color: #fff;
 }
 
-.image-sparmetric {
+.sm-section-intro-image {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 25% center;
 }
 
-.image-sparmetric-user-experience {
+.sm-section-intro-image-user-experience {
   background-image: url("../images/sparmetric/sparmetric-ux.jpg");
 }
 
-.image-sparmetric-personas {
+.sm-section-intro-image-personas {
   background-image: url("../images/sparmetric/sparmetric-personas.jpg");
 }
 
-.image-sparmetric-visual-design {
+.sm-section-intro-image-visual-design {
   background-image: url("../images/sparmetric/sparmetric-visualdesign.jpg");
 }
 
-.image-get-connected {
+.sm-section-intro-image-connected {
   background-image: url("../images/sparmetric/sparmetric-ux.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.image-subsection {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-get-connected {
+  height: 512px;
+  width: 512px;
+  background-image: url("https://placehold.it/512x512");
 }

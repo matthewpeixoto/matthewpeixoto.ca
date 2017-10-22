@@ -2,7 +2,19 @@
   min-width: 320px;
 }
 
-.logo,
-.logo:hover {
-  text-decoration: none;
+.i-logo {
+  width: 8rem;
+  height: 1.4rem;
+}
+
+.logo {
+  color: var(--color-text);
+}
+
+.nav-link {
+  transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1)
+}
+
+.nav-link:hover {
+  opacity: .65;
 }

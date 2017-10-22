@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>{{page.title}}</title>
+  <meta name="description" content="{{page.description}}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
@@ -14,28 +15,38 @@
   <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/home.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/sparmetric.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
 </head>
 <body class="{{page.theme}}">
 
-  <nav class="nav gutter pad-t-1-2 pad-b-1-2 fixed w-1 zindex-1000" role="navigation">
+<!--   <nav class="nav island" role="navigation">
     <div class="grid grid-middle wrapper">
       <div class="unit s-1-2">
-        <h1 class="mega push-0 ib">
-          <a class="logo ib" href="{{site.baseurl}}/">Matthew Peixoto</a>
-        </h1>
+        <a class="nav-link ib valign-middle" href="{{site.baseurl}}/">
+          <h1 class="icon logo push-0">
+            <svg class="icon logo"><use xlink:href="../images/icons.svg#matthew-peixoto"/></svg>
+          </h1>
+        </a>
       </div>
       <div class="unit s-1-2 text-right">
-        <a class="btn micro" href="mailto:hey@matthewpeixoto.ca">Send message</a>
+        <a class="nav-link" href="mailto:hey@matthewpeixoto.ca">Send message</a>
       </div>
     </div>
+  </nav> -->
+
+  <nav class="nav pad-t pad-b text-center" role="navigation">
+    <a class="nav-link ib valign-middle" href="{{site.baseurl}}/">
+      <h1 class="icon i-logo push-0">
+        <svg class="logo"><use xlink:href="../images/icons3.svg#matthew-peixoto"/></svg>
+      </h1>
+    </a>
   </nav>
 
-  <main>
+  <main role="main">
     {{content}}
   </main>
 
-  <footer class="footer gutter theme-light" role="contentinfo">
+  <footer class="footer gutter" role="contentinfo">
     <div class="wrapper">
       <ul class="list-group-inline push-0 pad-t-2 pad-b-2 footer-contact">
         <li class="push w-1">Send me a message at <a class="btn-link" href="mailto:hey@matthewpeixoto.ca">hey@matthewpeixoto.ca</a></li>

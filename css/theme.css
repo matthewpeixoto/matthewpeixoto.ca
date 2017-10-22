@@ -1,24 +1,24 @@
-.light .nav {
-  background-color: rgba(240, 240, 240, 0.9);
+:root {
+  --color-accent: #0091ea;
+  --color-focus: rgba(0, 145, 234, 0.5);
+
+  --color-ultralight: #fafafa;
+  --color-light: #f2f2f2;
+  --color-dark: #1a1a1a;
+  --color-ultradark: #0f0f0f;
+
+  --color-text: #111;
+
+  --font-primary: roboto, sans-serif;
 }
 
-.light .footer {
-  background-color: var(--color-light);
-}
-
-.light .logo {
-  color: #111;
-}
-
-.dark .nav {
-  background-color: rgba(34,34,34,0.9)
-}
-
+.dark .nav,
 .dark .footer {
   background-color: var(--color-ultradark);
 }
 
-.dark .logo {
+.dark .logo,
+.dark .nav-link {
   color: #fff;
 }
 
@@ -49,7 +49,13 @@
 }
 
 .unit-moments {
-  background-color: #e0f2f1;
+  background-color: #e9f7f8;
 
   color: var(--color-text);
+}
+
+.unit-dive {
+  background-color: #148E97;
+
+  color: #fff8e1;
 }

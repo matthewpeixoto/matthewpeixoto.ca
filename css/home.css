@@ -6,30 +6,42 @@
   outline-offset: -3px;
 }
 
-.font-dark {
-  color: var(--color-neutral-dark);
-}
-
-.font-light {
-  color: #fff;
-}
-
 .unit-image {
-  height: calc(31.2rem - 9.86rem);
-  width: 14.8rem;
+  height: 21.3rem;
+  width: 17.4rem;
 
-  background-image: url("http://via.placeholder.com/512x768");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.intro-unit-image {
-  height: calc(37.7rem - 18.81rem);
-  width: 14.8rem;
+.unit-image-intro {
+  height: 18.9rem;
+  width: 17.4rem;
+
+  background-image: url("");
 }
 
 .unit-image-sparmetric {
   background-image: url("../images/home/sparmetric/s-sparmetric.jpg");
+}
+
+.unit-image-geomattric {
+  height: 17.4rem;
+
+  top: 9.86rem;
+  background-image: url("../images/home/geomattric/s-geomattric.jpg");
+}
+
+.unit-image-moments {
+  width: 12rem;
+
+  background-image: url("../images/home/moments/s-moments.jpg");
+}
+
+.unit-image-dive {
+  top: 7rem;
+
+  background-image: url("../images/home/dive/s-dive.jpg");
 }
 
 @media only screen and (min-width: 46em) {
@@ -43,10 +55,8 @@
   }
 
   .unit-image {
-    height: calc(39.2rem - 11.31rem);
-    width: calc(39.2rem - 11.31rem);
-
-    background-image: url("http://via.placeholder.com/1024x1024");
+    height: 27.9rem;
+    width: 27.9rem;
   }
 
   .intro-unit-image {
@@ -58,6 +68,26 @@
     background-image: url("../images/home/sparmetric/m-sparmetric.jpg");
   }
 
+  .unit-image-geomattric {
+    height: 21rem;
+    width: 42rem;
+    top: 14rem;
+
+    background-image: url("../images/home/geomattric/m-geomattric.jpg");
+  }
+
+  .unit-image-moments {
+    width: 18.7rem;
+
+    background-image: url("../images/home/moments/m-moments.jpg");
+  }
+
+  .unit-image-dive {
+    top: 10rem;
+
+    background-image: url("../images/home/dive/m-dive.jpg");
+  }
+
 }
 
 @media only screen and (min-width: 67em) {
@@ -67,8 +97,18 @@
   }
 
   .unit-image {
-    height: calc(40.5rem - 12.49rem);
-    width: calc(40.5rem - 12.49rem);
+    height: 28rem;
+    width: 28rem;
+  }
+
+  .unit-image-geomattric {
+    width: 56rem;
+    top: 10.6rem;
+  }
+
+  .unit-image-moments {
+    width: 18.8rem;
   }
 
 }
+
