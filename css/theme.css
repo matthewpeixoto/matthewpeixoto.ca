@@ -12,6 +12,11 @@
   --font-primary: roboto, sans-serif;
 }
 
+.light .nav,
+.light .footer {
+  background-color: var(--color-light);
+}
+
 .dark .nav,
 .dark .footer {
   background-color: var(--color-ultradark);
