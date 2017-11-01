@@ -44,6 +44,24 @@
   background-image: url("../images/home/dive/s-dive.jpg");
 }
 
+.unit-sparmetric {
+  background-color: var(--color-dark);
+
+  color: #fff;
+}
+
+.unit-moments {
+  background-color: #e9f7f8;
+
+  color: var(--color-text);
+}
+
+.unit-dive {
+  background-color: #148E97;
+
+  color: #fff8e1;
+}
+
 @media only screen and (min-width: 46em) {
 
   .intro-unit-wrapper {

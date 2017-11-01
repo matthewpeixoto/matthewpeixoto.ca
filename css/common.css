@@ -1,7 +1,7 @@
 body {
   min-width: 320px;
 
-  color: var(--color-neutral-dark);
+  color: var(--color-text);
   font-family: "Roboto", sans-serif;
 }
 
@@ -24,6 +24,10 @@ h6 {
 
 .text-left-center {
   text-align: left;
+}
+
+.clear-nav {
+  padding-top: 2.625rem;
 }
 
 .push-4 {
@@ -76,10 +80,6 @@ h6 {
     padding-bottom: 5.6rem;
   }
 
-  .clear-nav {
-    padding-top: 3.1rem;
-  }
-
 }
 
 @media only screen and (min-width: 67em) {
@@ -98,10 +98,6 @@ h6 {
 
   .pad-b-4 {
     padding-bottom: 6rem;
-  }
-
-  .clear-nav {
-    padding-top: 3.4rem;
   }
 
 }

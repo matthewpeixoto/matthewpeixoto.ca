@@ -12,6 +12,10 @@
   --font-primary: roboto, sans-serif;
 }
 
+.color-light {
+  color: #888;
+}
+
 .light .nav,
 .light .footer {
   background-color: var(--color-light);
@@ -46,21 +50,8 @@
   color: #fff;
 }
 
-.theme-ultradark,
-.unit-sparmetric {
+.theme-ultradark {
   background-color: var(--color-ultradark);
 
   color: #fff;
-}
-
-.unit-moments {
-  background-color: #e9f7f8;
-
-  color: var(--color-text);
-}
-
-.unit-dive {
-  background-color: #148E97;
-
-  color: #fff8e1;
 }
