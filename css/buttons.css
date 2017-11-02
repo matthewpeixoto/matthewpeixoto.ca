@@ -21,6 +21,7 @@
 }
 
 .btn-link:hover {
+  background-color: transparent;
   color: var(--color-accent);
   text-decoration: underline;
 }

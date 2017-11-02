@@ -21,6 +21,12 @@
   background-color: var(--color-light);
 }
 
+.dark {
+  background-color: var(--color-dark);
+
+  color: #fff;
+}
+
 .dark .nav,
 .dark .footer {
   background-color: var(--color-ultradark);

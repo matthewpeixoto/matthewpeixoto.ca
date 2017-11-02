@@ -74,6 +74,11 @@
     height: 46.6rem;
   }
 
+  .piece-list {
+    padding-left: .7rem;
+    padding-right: .7rem;
+  }
+
   .unit-wrapper {
     height: 39.2rem;
   }
@@ -118,6 +123,11 @@
 
 @media only screen and (min-width: 67em) {
 
+  .piece-list {
+    padding-left: .75rem;
+    padding-right: .75rem;
+  }
+
   .unit-wrapper {
     height: 40.5rem;
   }
@@ -140,4 +150,5 @@
     height: 21rem;
     width: 21rem;
   }
+
 
