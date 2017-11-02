@@ -39,9 +39,11 @@
 }
 
 .unit-image-dive {
-  top: 7rem;
+  height: 15rem;
+  width: 15rem;
+  top: 14rem;
 
-  background-image: url("../images/home/dive/s-dive.jpg");
+  background-image: url("../images/home/dive/dive.jpg");
 }
 
 .unit-sparmetric {
@@ -57,9 +59,13 @@
 }
 
 .unit-dive {
-  background-color: #148E97;
+  background: linear-gradient(
+    -10deg,
+    #148E97 60%,
+    #FFFDE7 60%
+  );
 
-  color: #fff8e1;
+  color: #148E97;
 }
 
 @media only screen and (min-width: 46em) {
@@ -101,9 +107,11 @@
   }
 
   .unit-image-dive {
-    top: 10rem;
+    height: 20rem;
+    width: 20rem;
+    top: 17rem;
 
-    background-image: url("../images/home/dive/m-dive.jpg");
+    background-image: url("../images/home/dive/dive.jpg");
   }
 
 }
@@ -128,5 +136,8 @@
     width: 18.8rem;
   }
 
-}
+  .unit-image-dive {
+    height: 21rem;
+    width: 21rem;
+  }
 
