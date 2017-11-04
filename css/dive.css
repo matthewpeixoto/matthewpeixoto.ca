@@ -1,7 +1,3 @@
-.video-wrapper {
-  max-width: calc(56rem - (1.3rem + 1.3rem));
-}
-
 .video-container {
   background-color: #000;
 }
@@ -13,10 +9,6 @@
     padding-bottom: 2.8rem;
   }
 
-  .video-wrapper {
-    max-width: calc(56rem - (1.4rem + 1.4rem));
-  }
-
 }
 
 @media only screen and (min-width: 67em) {
@@ -24,10 +16,6 @@
   .video-container {
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
-
-  .video-wrapper {
-    max-width: calc(56rem - (1.5rem + 1.5rem));
   }
 
 }
