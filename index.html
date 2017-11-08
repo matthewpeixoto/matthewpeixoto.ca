@@ -19,9 +19,14 @@ theme: light
 </section>
 <section>
   <ul class="list-group push-0">
-    {% for piece in site.pages %}
+    <!-- {% for piece in site.pages %}
       {% if piece.url == "/" %}{% continue %}{% endif %}
       {% include unit.html title=piece.shorttitle subtitle=piece.subtitle class=piece.class url=piece.url %}
-    {% endfor %}
+    {% endfor %} -->
+
+    {% include unit.html class="sparmetric" title="SparMetric" subtitle="UX/UI Design" %}
+    {% include unit.html class="moments" title="Moments" subtitle="UX/UI Design" %}
+    {% include unit.html class="geomattric" title="GeoMattric" subtitle="Type Design" %}
+    {% include unit.html class="dive" title="Dive" subtitle="Motion Graphics" %}
   </ul>
 </section>
