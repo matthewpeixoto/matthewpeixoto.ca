@@ -1,4 +1,8 @@
-.sparmetric-subsection-header {
+.sparmetric-border-top {
+  border-top:  2px solid rgba(255, 255, 255, .2);
+}
+
+.sparmetric-border-bottom {
   border-bottom:  2px solid rgba(255, 255, 255, .2);
 }
 
@@ -54,6 +58,28 @@
   background-image: url("../images/sparmetric/s-ready-set-spar.jpg");
 }
 
+.image-stats {
+  background-image: url("../images/sparmetric/s-stats.jpg");
+}
+
+.image-achievements {
+  background-image: url("../images/sparmetric/s-achievements.jpg");
+}
+
+.image-persona-1 {
+  height: 560px;
+  width: 278px;
+
+  background-image: url("../images/sparmetric/s-persona-1.jpg");
+}
+
+.image-persona-2 {
+  height: 353px;
+  width: 278px;
+
+  background-image: url("../images/sparmetric/s-persona-2.jpg");
+}
+
 @media only screen and (min-width: 46em) {
 
   .image-device {
@@ -65,6 +91,23 @@
     width: 590px;
 
     background-image: url("../images/sparmetric/m-ready-set-spar.jpg");
+  }
+
+  .image-stats {
+    width: 590px;
+
+    background-image: url("../images/sparmetric/m-stats.jpg");
+  }
+
+  .subsection-achievements {
+    padding-bottom: 0;
+  }
+
+  .image-achievements {
+    height: 651px;
+    width: 465px;
+
+    background-image: url("../images/sparmetric/m-achievements.jpg");
   }
 
 }
@@ -80,6 +123,23 @@
     width: 100%;
 
     background-image: url("../images/sparmetric/l-ready-set-spar.jpg");
+  }
+
+  .image-stats {
+    width: 674px;
+  }
+
+  .image-achievements {
+    height: 896px;
+    width: 640px;
+  }
+
+  .image-persona-1 {
+    margin-left: 0;
+  }
+
+   .image-persona-2 {
+    margin-right: 0;
   }
 
 }

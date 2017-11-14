@@ -44,11 +44,15 @@ class: sparmetric
     theme="ultradark"
     title="Every stat you’ll ever need."
     desc="SparMetric gives you every stat you’ll ever need to improve your training and keep you injury-free. These detailed stats give you and your coaches a deeper look into your skillset and are a powerful tool in helping you hone your strengths and improve on your weaknesses. And with a Headgear Sensor, you’ll know if you’ve taken too much head damage so you can stay in the best shape possible."
+    class="stats"
+    img-class="image-device"
   %}
   {% include sparmetric-subsection.html
     theme="dark"
     title="Reach for the stars."
     desc="Achievements can help make training fun, motivate you to push harder, and even give you some well-earned bragging rights."
+    class="achievements"
+    img-class="image-device"
   %}
 </section>
 
@@ -58,46 +62,98 @@ class: sparmetric
     subtitle="Designed for every level."
     class="personas"
   %}
-  <div class="theme-ultradark gutter pad-t-4 pad-b-4">
-    <div class="wrapper">
-      <div class="text-center push-2">
-        <img class="img-flex" src="http://placehold.it/512x512" alt="">
+  <div class="theme-black gutter pad-t-4">
+    <div class="grid wrapper sparmetric-border-bottom">
+      <div class="unit s-1 l-1-2 unit-push-l-1-2">
+        <blockquote>
+          <p class="max-length-no-center medium mega">“I’m a professional mixed martial artists. I have been training since I was 8 years old and I was born to fight. SparMetric is amazing because it helps my coaches and I see the little mistakes I make during sparring that could cost me a fight. My team studies the stats for each sparring session to help me perfect my skills and keep me healthy for fights.”</p>
+          <footer>— <cite>Carlos Junior</cite></footer>
+        </blockquote>
       </div>
-      <blockquote class="push-0">
-        <p class="max-length-no-center giga">“I’m a professional mixed martial artists. I was born to fight and have been training since I was 8 years old. SparMetric is amazing because it helps my coaches and I see the little mistakes I make during sparring that could cost me a fight. My team studies the stats for each sparring session to help me perfect my skills and keep me healthy for fights.”</p>
-        <footer>— <cite>Carlos Junior</cite></footer>
-      </blockquote>
+      <div class="unit s-1 l-1-2 unit-pull-l-1-2">
+        <figure class="push-0 sm-subsection-image image-persona-1"></figure>
+      </div>
     </div>
   </div>
-  <div class="theme-dark gutter pad-t-4 pad-b-4">
-    <div class="wrapper">
-      <div class="text-center push-2">
-        <img class="img-flex" src="http://placehold.it/512x512" alt="">
+  <div class="theme-black gutter pad-t-4">
+    <div class="grid wrapper">
+      <div class="unit s-1 l-1-2">
+        <blockquote>
+          <p class="max-length-no-center medium mega">“I train martial arts because it keeps me in excellent shape and I love the thrill of sparring. SparMetric helps me see the improvements I’ve been making and the achievements motivate me to continuously push harder."</p>
+          <footer>— <cite>Irene Fraser</cite></footer>
+        </blockquote>
       </div>
-      <blockquote class="push-0">
-        <p class="max-length-no-center giga">“I train martial arts because it keeps me in excellent shape and I love the thrill of sparring. SparMetric helps me see the improvements I’ve been making and the achievements motivate me to push harder."</p>
-        <footer>— <cite>Irene Fraser</cite></footer>
-      </blockquote>
+      <div class="unit s-1 l-1-2">
+        <figure class="push-0 sm-subsection-image image-persona-2"></figure>
+      </div>
     </div>
   </div>
 </section>
 
 <section>
-  {% include sparmetric-section-intro.html
-    title="Visual Design"
-    subtitle="Designed with meaning."
-    class="visual-design"
-  %}
-  {% include sparmetric-subsection.html
-    theme="ultradark"
-    title="Not just any colours."
-    desc="SparMetric’s colour palette is sourced from Google Material and is inspired by MMA and boxing design themes. The primary colours of black and dark greys set a subdued and serious tone while the yellow accent colour adds a sense of action and energy. The secondary colours are used to represent the red and blue corners found in MMA and boxing matches are used to represent their respective stats."
-  %}
-  {% include sparmetric-subsection.html
+  <div class="theme-ultradark gutter pad-t-4 pad-b-4 subsection-colours">
+    <div class="wrapper">
+      <div class="push-2">
+        <h4 class="tera pad-b sparmetric-border-bottom">Not just any colours.</h4>
+        <p class="max-length-no-center mega medium push-0">SparMetric’s colour palette is sourced from Google Material and is inspired by MMA and boxing design themes. The primary colours of black and dark greys set a subdued and serious tone while the yellow accent colour adds a sense of action and energy. The secondary colours are used to represent the red and blue corners found in MMA and boxing matches are used to represent their respective stats.</p>
+      </div>
+
+
+      <div class="max-length milli medium">
+        <h5 class="kilo push-1-2">Primary Colours</h5>
+        <div class="island-1-2 light" style="background-color: #616161;">
+          <span class="block push-2">Grey</span>
+          <div class="details">
+            <span class="shade">700</span>
+            <span class="hex right">#616161</span>
+          </div>
+        </div>
+        <div class="island-1-2 light" style="background-color: #424242;">
+          <span class="shade">800</span>
+          <span class="hex right">#424242</span>
+        </div>
+        <div class="island-1-2 light push-1-2" style="background-color: #212121;">
+          <span class="shade">900</span>
+          <span class="hex right">#212121</span>
+        </div>
+        <div class="island-1-2 light push " style="background-color: #000000;">
+          <span class="shade">Black</span>
+          <span class="hex right">#000000</span>
+        </div>
+
+        <h5 class="kilo push-1-2">Secondary Colours</h5>
+        <div class="island-1-2 light push-1-2" style="background-color: #f44336;">
+          <span class="block push-2">Red</span>
+          <div class="details">
+            <span class="shade">500</span>
+            <span class="hex right">#F44336</span>
+          </div>
+        </div>
+        <div class="island-1-2 light push" style="background-color: #2196f3;">
+          <span class="block push-2">Blue</span>
+          <div class="details">
+            <span class="shade">500</span>
+            <span class="hex right">#2196F3</span>
+          </div>
+        </div>
+
+        <h5 class="kilo push-1-2">Accent Colour</h5>
+        <div class="island-1-2 color-dark" style="background-color: #ffd600;">
+          <span class="block push-2">Yellow</span>
+          <div class="details">
+            <span class="shade">A700</span>
+            <span class="hex right">#FFD600</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<!--   {% include sparmetric-subsection.html
     theme="dark"
     title="Just the right type."
     desc="SparMetric strictly follows the Google Material typography guidelines. Roboto is the standard typeface for Android and is extremely legible at any size and also works great on dark backgrounds. The provided Google Material typography styles are used for a consistent and familiar experience."
-  %}
+  %} -->
 </section>
 
 <section>
