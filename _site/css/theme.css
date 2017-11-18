@@ -1,0 +1,73 @@
+:root {
+  --color-accent: #0091ea;
+  --color-focus: rgba(0, 145, 234, 0.5);
+
+  --color-ultralight: #fafafa;
+  --color-light: #f2f2f2;
+  --color-dark: #1a1a1a;
+  --color-ultradark: #101010;
+
+  --color-text: #111;
+
+  --font-primary: roboto, sans-serif;
+}
+
+.color-light {
+  color: #888;
+}
+
+.color-dark {
+  color: var(--color-text);
+}
+
+.light .nav,
+.light .footer {
+  background-color: var(--color-light);
+}
+
+.dark {
+  background-color: var(--color-dark);
+
+  color: #fff;
+}
+
+.dark .nav,
+.dark .footer {
+  background-color: var(--color-ultradark);
+}
+
+.dark .logo,
+.dark .nav-link {
+  color: #fff;
+}
+
+.theme-ultralight,
+.unit-geomattric {
+  background-color:  var(--color-ultralight);
+
+  color: var(--color-text);
+}
+
+.theme-light {
+  background-color:  var(--color-light);
+
+  color: var(--color-text);
+}
+
+.theme-dark {
+  background-color: var(--color-dark);
+
+  color: #fff;
+}
+
+.theme-ultradark {
+  background-color: var(--color-ultradark);
+
+  color: #fff;
+}
+
+.theme-black {
+  background-color: #000;
+
+  color: #fff;
+}

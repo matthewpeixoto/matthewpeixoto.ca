@@ -1,0 +1,60 @@
+.btn {
+  background-color: var(--color-accent);
+  border: none;
+}
+
+.btn:focus {
+  background-color: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-focus);
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #00b0ff;
+}
+
+.btn-link,
+.btn-link:focus {
+  background-color: transparent;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  background-color: transparent;
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.btn-link-icon:hover {
+  text-decoration: none;
+}
+
+.btn-link-icon:hover .link-text {
+  text-decoration: underline;
+}
+
+.i-link {
+  height: 1em;
+  width: .75em;
+}
+
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline-color: var(--color-focus);
+}
+
+a:focus, [tabindex="0"]:focus {
+  outline-offset: 1px;
+}
+
+a:active {
+  box-shadow: none;
+  outline: none;
+}
