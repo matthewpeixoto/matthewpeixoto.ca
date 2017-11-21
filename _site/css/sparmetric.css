@@ -39,6 +39,10 @@
   background-image: url("../images/sparmetric/sparmetric-visualdesign.jpg");
 }
 
+.sm-section-intro-image-ideation {
+  background-image: url("../images/sparmetric/sparmetric-ideation.jpg");
+}
+
 .sm-section-intro-image-connected {
   background-image: url("../images/sparmetric/sparmetric-ux.jpg");
   background-repeat: no-repeat;
@@ -102,6 +106,22 @@
   background-image: url("../images/sparmetric/type.png");
 }
 
+.ideation-sketch {
+  height: 17.375em;
+  width: 17.375em;
+
+  background-size: auto 100%;
+  background-position: center left;
+}
+
+.image-ideation-1 {
+  background-image: url("../images/sparmetric/ideation-1.jpg");
+}
+
+.image-ideation-2 {
+  background-image: url("../images/sparmetric/ideation-2.jpg");
+}
+
 
 @media only screen and (min-width: 46em) {
 
@@ -141,6 +161,10 @@
   .image-type {
     height: 26.39em;
     width: 35em;
+  }
+
+  .ideation-sketch {
+    width: 36.59em;
   }
 
 }
@@ -183,6 +207,10 @@
   .image-type {
     height: 27.41em;
     width: 36.36em;
+  }
+
+  .ideation-sketch {
+    width: 56em;
   }
 
 }

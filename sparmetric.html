@@ -160,7 +160,7 @@ class: sparmetric
     desc="SparMetric strictly follows the Google Material typography guidelines. Roboto is the standard typeface for Android and is extremely legible at any size and also works great on dark backgrounds. The provided Google Material typography styles are used for a consistent and familiar experience."
     class='type'
   %}
-  <div class="theme-ultradark gutter pad-t-4 pad-b-2 subsection-colours">
+  <div class="theme-ultradark gutter pad-t-4 pad-b-4 subsection-colours">
     <div class="wrapper">
       <div class="push-2">
         <h4 class="tera pad-b sparmetric-border-bottom">Iconic Iconography.</h4>
@@ -175,10 +175,10 @@ class: sparmetric
         <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#play" /></svg></i>
         <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#pause" /></svg></i>
         <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#settings" /></svg></i>
-        <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#stars" /></svg></i>
-        <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#timeline" /></svg></i>
-        <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#track-changes" /></svg></i>
-        <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#timer" /></svg></i>
+        <i class="unit s-1-3 m-1-4 push-2 push-m-0 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#stars" /></svg></i>
+        <i class="unit s-1-3 m-1-4 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#timeline" /></svg></i>
+        <i class="unit s-1-3 m-1-4 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#track-changes" /></svg></i>
+        <i class="unit s-1-3 m-1-4 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#timer" /></svg></i>
       </div>
     </div>
   </div>
@@ -187,12 +187,21 @@ class: sparmetric
 <section>
    {% include sparmetric-section-intro.html
     title="Ideation"
-    subtitle="Designed to solve&nbsp;a&nbsp;problem."
+    subtitle="Designed to solve&nbsp;a&nbsp;need."
     class="ideation"
   %}
   {% include sparmetric-subsection.html
     theme="ultradark"
-    title="User stories."
-    desc="Martial artists want a way to see a quick assessment of their performance in between rounds so that they can make the necessary adjustments in the following round. High-level martial artists and their coaches want a way to see detailed statistics about each sparring session so that they can perfect their training and skill set. Lower level martial artists want a way to unlock achievements to help them set goals and motivate them to improve."
+    title="A built-in timer and coach."
+    desc="Martial artists needed a way to set specific round lengths, rest lengths, and number of rounds for their sparring sessions. They also need a way to get a quick assessment of their performance in between rounds and a more detailed assessment at the end of the each session."
+    class="ideation-1"
+    img-class="ideation-sketch"
+  %}
+  {% include sparmetric-subsection.html
+    theme="dark"
+    title="An intuitive and simple interface."
+    desc="SparMetric was designed with big, bold, and concise visual elements and a simple app flow so users can get what they need when they need it—even on the cusp of exhaustion."
+    class="ideation-2"
+    img-class="ideation-sketch"
   %}
 </section>
