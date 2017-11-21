@@ -12,9 +12,19 @@
 }
 
 .sm-section-intro-image {
+  height: 125%;
+  width: 125%;
+
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 25% center;
+  background-position: center center;
+
+  transition: all 10s ease;
+}
+
+.js-sm-section-intro-image-animate {
+  height: 100%;
+  width: 100%;
 }
 
 .sm-section-intro-image-user-experience {
@@ -41,13 +51,13 @@
   margin-right: auto;
 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
 }
 
 .image-device {
-  height: 560px;
-  width: 278px;
+  height: 35em;
+  width: 17.375em;
 }
 
 .image-get-connected {
@@ -67,38 +77,47 @@
 }
 
 .image-persona-1 {
-  height: 560px;
-  width: 278px;
+  height: 35em;
+  width: 17.375em;
 
   background-image: url("../images/sparmetric/s-persona-1.jpg");
 }
 
 .image-persona-2 {
-  height: 353px;
-  width: 278px;
+  height: 22em;
+  width: 17.375em;
 
   background-image: url("../images/sparmetric/s-persona-2.jpg");
 }
 
-.colours-wrapper {
-  width: 278px;
+.colours-wrapper,
+.icons-wrapper {
+  width: 17.375em;
 }
+
+.image-type {
+  height: 13.1em;
+  width: 17.375em;
+
+  background-image: url("../images/sparmetric/type.png");
+}
+
 
 @media only screen and (min-width: 46em) {
 
   .image-device {
-    height: 635px;
-    width: 315px;
+    height: 37.75em;
+    width: 18.75em;
   }
 
   .image-ready-set-spar {
-    width: 590px;
+    width: 35em;
 
     background-image: url("../images/sparmetric/m-ready-set-spar.jpg");
   }
 
   .image-stats {
-    width: 590px;
+    width: 35em;
 
     background-image: url("../images/sparmetric/m-stats.jpg");
   }
@@ -108,14 +127,20 @@
   }
 
   .image-achievements {
-    height: 651px;
-    width: 465px;
+    height: 38.85em;
+    width: 27.75em;
 
     background-image: url("../images/sparmetric/m-achievements.jpg");
   }
 
-  .colours-wrapper {
-    width: 465px;
+  .colours-wrapper,
+  .icons-wrapper {
+    width: 35em;
+  }
+
+  .image-type {
+    height: 26.39em;
+    width: 35em;
   }
 
 }
@@ -123,23 +148,23 @@
 @media only screen and (min-width: 67em) {
 
   .image-device {
-    height: 725px;
-    width: 360px;
+    height: 41.18em;
+    width: 20.45em;
   }
 
   .image-ready-set-spar {
-    width: 100%;
+    width: 56em;
 
     background-image: url("../images/sparmetric/l-ready-set-spar.jpg");
   }
 
   .image-stats {
-    width: 674px;
+    width: 38.23em;
   }
 
   .image-achievements {
-    height: 896px;
-    width: 640px;
+    height: 50.9em;
+    width: 36.36em;
   }
 
   .image-persona-1 {
@@ -150,9 +175,14 @@
     margin-right: 0;
   }
 
-  .colours-wrapper {
-    width: 640px;
+  .colours-wrapper,
+  .icons-wrapper {
+    width: 36.36em;
   }
 
+  .image-type {
+    height: 27.41em;
+    width: 36.36em;
+  }
 
 }

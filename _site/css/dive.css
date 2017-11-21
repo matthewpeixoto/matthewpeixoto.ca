@@ -1,12 +1,12 @@
 .video-container {
-  background-color: #000;
+  max-width: 72em;
 }
 
 @media only screen and (min-width: 46em) {
 
   .video-container {
+    margin-bottom: 2.8rem;
     padding-top: 2.8rem;
-    padding-bottom: 2.8rem;
   }
 
 }
@@ -14,8 +14,11 @@
 @media only screen and (min-width: 67em) {
 
   .video-container {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    margin-bottom: 6rem;
+    padding-top: 6rem;
   }
 
 }
+
+
+

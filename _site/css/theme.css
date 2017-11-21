@@ -12,6 +12,10 @@
   --font-primary: roboto, sans-serif;
 }
 
+.color-white {
+  color: #fff;
+}
+
 .color-light {
   color: #888;
 }
