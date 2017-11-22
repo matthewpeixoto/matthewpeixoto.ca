@@ -18,10 +18,19 @@
 
 .unit-wrapper {
   height: 31.2rem;
+
+  color: var(--color-text);
 }
 
 .unit-wrapper:focus {
   outline-offset: -3px;
+}
+
+.unit-image-intro {
+  height: 18.9rem;
+  width: 17.4rem;
+
+  background-image: url("");
 }
 
 .unit-image {
@@ -32,11 +41,15 @@
   background-size: cover;
 }
 
-.unit-image-intro {
-  height: 18.9rem;
-  width: 17.4rem;
+.unit-secondary-image {
+  height: 100%;
+  width: 100%;
+}
 
-  background-image: url("");
+.unit-sparmetric {
+  background-color: var(--color-dark);
+
+  color: #fff;
 }
 
 .unit-image-sparmetric {
@@ -50,10 +63,22 @@
   background-image: url("../images/home/geomattric/s-geomattric.jpg");
 }
 
+.unit-moments {
+  background-color: #e0f7fa;
+}
+
 .unit-image-moments {
   width: 12rem;
 
   background-image: url("../images/home/moments/s-moments.jpg");
+}
+
+.unit-dive {
+  background: linear-gradient(
+    -10deg,
+    #148E97 60%,
+    #FFFDE7 60%
+  );
 }
 
 .unit-image-dive {
@@ -64,34 +89,31 @@
   background-image: url("../images/home/dive/dive.jpg");
 }
 
-.unit-sparmetric {
-  background-color: var(--color-dark);
-
+.unit-cr7 {
   color: #fff;
 }
 
-.unit-moments {
-  background-color: #e0f7fa;
-
-  color: var(--color-text);
-}
-
-.unit-dive {
-  background: linear-gradient(
-    -10deg,
-    #148E97 60%,
-    #FFFDE7 60%
-  );
-
-  color: #148E97;
+.unit-image-cr7 {
+  background-image: url("../images/home/cr7/cr7.jpg");
+  background-position: center center;
 }
 
 @media only screen and (min-width: 46em) {
 
-/*   .unit-primary:last-child {
-    margin-bottom: 0;
-  } */
+  .to-peta {
+    font-size: 2.0736rem;
+    line-height: 2.8rem;
+  }
 
+  .to-mega {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+  }
+
+ /*  .unit-primary:last-child {
+    margin-bottom: 0;
+  }
+ */
   .unit-secondary,
   .unit-secondary-list {
     margin-bottom: 0;
@@ -118,6 +140,11 @@
   .unit-image {
     height: 27.9rem;
     width: 27.9rem;
+  }
+
+  .unit-secondary-image {
+    height: 100%;
+    width: 100%;
   }
 
   .intro-unit-image {
@@ -155,6 +182,16 @@
 
 @media only screen and (min-width: 67em) {
 
+  .to-peta {
+    font-size: 2.4414rem;
+    line-height: 3.375rem;
+  }
+
+  .to-mega {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
   .unit-secondary,
   .unit-secondary-list {
     padding: .375rem;
@@ -178,6 +215,11 @@
     width: 28rem;
   }
 
+  .unit-secondary-image {
+    height: 100%;
+    width: 100%;
+  }
+
   .unit-image-geomattric {
     width: 56rem;
     top: 10.6rem;
@@ -192,4 +234,5 @@
     width: 21rem;
   }
 
+}
 

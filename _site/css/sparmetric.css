@@ -1,3 +1,8 @@
+.i-sm-logo {
+  height: 64px;
+  width: 64px;
+}
+
 .sparmetric-border-top {
   border-top:  2px solid rgba(255, 255, 255, .2);
 }
@@ -130,6 +135,11 @@
     width: 18.75em;
   }
 
+  .sm-intro-copy {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .image-ready-set-spar {
     width: 35em;
 
@@ -170,6 +180,12 @@
 }
 
 @media only screen and (min-width: 67em) {
+
+
+  .i-sm-logo {
+    height: 96px;
+    width: 96px;
+  }
 
   .image-device {
     height: 41.18em;
