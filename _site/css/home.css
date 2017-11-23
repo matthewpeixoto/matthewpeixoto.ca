@@ -19,6 +19,8 @@
 .unit-wrapper {
   height: 31.2rem;
 
+  background-color: var(--color-ultralight);
+
   color: var(--color-text);
 }
 
@@ -34,11 +36,12 @@
 }
 
 .unit-image {
-  height: 21.3rem;
-  width: 17.4rem;
+  height: 21.5rem;
+  width: 17.55rem;
 
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center bottom;
 }
 
 .unit-secondary-image {
@@ -53,14 +56,24 @@
 }
 
 .unit-image-sparmetric {
-  background-image: url("../images/home/sparmetric/s-sparmetric.jpg");
+  background-image: url("../images/home/s-sparmetric.jpg");
+}
+
+.unit-loyal-rescue {
+  background-color: #e8eaf6;
+}
+
+.unit-image-loyal-rescue {
+  width: 12.13rem;
+
+  background-image: url("../images/home/s-loyal-rescue.jpg");
 }
 
 .unit-image-geomattric {
-  height: 17.4rem;
-
+  height: 17.55rem;
   top: 9.86rem;
-  background-image: url("../images/home/geomattric/s-geomattric.jpg");
+
+  background-image: url("../images/home/s-geomattric.jpg");
 }
 
 .unit-moments {
@@ -68,9 +81,9 @@
 }
 
 .unit-image-moments {
-  width: 12rem;
+  width: 12.1rem;
 
-  background-image: url("../images/home/moments/s-moments.jpg");
+  background-image: url("../images/home/s-moments.jpg");
 }
 
 .unit-dive {
@@ -86,7 +99,7 @@
   width: 15rem;
   top: 14rem;
 
-  background-image: url("../images/home/dive/dive.jpg");
+  background-image: url("../images/home/dive.jpg");
 }
 
 .unit-cr7 {
@@ -94,7 +107,7 @@
 }
 
 .unit-image-cr7 {
-  background-image: url("../images/home/cr7/cr7.jpg");
+  background-image: url("../images/home/cr7.jpg");
   background-position: center center;
 }
 
@@ -138,8 +151,8 @@
   }
 
   .unit-image {
-    height: 27.9rem;
-    width: 27.9rem;
+    height: 28.1rem;
+    width: 28.1rem;
   }
 
   .unit-secondary-image {
@@ -153,29 +166,35 @@
   }
 
   .unit-image-sparmetric {
-    background-image: url("../images/home/sparmetric/m-sparmetric.jpg");
+    background-image: url("../images/home/m-sparmetric.jpg");
   }
+
+
+  .unit-image-loyal-rescue {
+    width: 29.36rem;
+
+    background-image: url("../images/home/m-loyal-rescue.jpg");
+  }
+
 
   .unit-image-geomattric {
     height: 21rem;
     width: 42rem;
     top: 14rem;
 
-    background-image: url("../images/home/geomattric/m-geomattric.jpg");
+    background-image: url("../images/home/m-geomattric.jpg");
   }
 
   .unit-image-moments {
-    width: 18.7rem;
+    width: 18.91rem;
 
-    background-image: url("../images/home/moments/m-moments.jpg");
+    background-image: url("../images/home/m-moments.jpg");
   }
 
   .unit-image-dive {
     height: 20rem;
     width: 20rem;
     top: 17rem;
-
-    background-image: url("../images/home/dive/dive.jpg");
   }
 
 }
@@ -211,13 +230,17 @@
   }
 
   .unit-image {
-    height: 28rem;
-    width: 28rem;
+    height: 28.2rem;
+    width: 28.2rem;
   }
 
   .unit-secondary-image {
     height: 100%;
     width: 100%;
+  }
+
+  .unit-image-loyal-rescue {
+    width: 29.47rem;
   }
 
   .unit-image-geomattric {
@@ -226,7 +249,7 @@
   }
 
   .unit-image-moments {
-    width: 18.8rem;
+    width: 18.97rem;
   }
 
   .unit-image-dive {
