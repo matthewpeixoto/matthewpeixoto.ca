@@ -60,13 +60,13 @@
 }
 
 .unit-loyal-rescue {
-  background-color: #e8eaf6;
+  background-color: #F5F8FD;
 }
 
 .unit-image-loyal-rescue {
-  width: 12.13rem;
+  width: 21.5rem;
 
-  background-image: url("../images/home/s-loyal-rescue.jpg");
+  background-image: url("../images/home/loyal-rescue.jpg");
 }
 
 .unit-image-geomattric {
@@ -169,14 +169,6 @@
     background-image: url("../images/home/m-sparmetric.jpg");
   }
 
-
-  .unit-image-loyal-rescue {
-    width: 29.36rem;
-
-    background-image: url("../images/home/m-loyal-rescue.jpg");
-  }
-
-
   .unit-image-geomattric {
     height: 21rem;
     width: 42rem;
@@ -237,10 +229,6 @@
   .unit-secondary-image {
     height: 100%;
     width: 100%;
-  }
-
-  .unit-image-loyal-rescue {
-    width: 29.47rem;
   }
 
   .unit-image-geomattric {

@@ -1,0 +1,19 @@
+.theme-moments {
+  background-color: #e0f7fa;
+}
+
+.moments-hero-image-container {
+  height: 100vh;
+  min-height: 50rem;
+}
+
+.moments-hero-image {
+  margin-left: auto;
+  margin-right: auto;
+  height: 35rem;
+  width: 17.4rem;
+
+  background-image: url("../images/moments/moments-hero.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
