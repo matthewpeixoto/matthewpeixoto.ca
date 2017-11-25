@@ -18,7 +18,7 @@
   margin-right: auto;
 
   width: 17.4rem;
-  animation: slide-up 3s ease-out forwards;
+  animation: slide-up 3s ease-in-out forwards;
 }
 
 .sparmetric-hero-phone {
@@ -39,14 +39,14 @@
   background-image: url("../images/sparmetric/sparmetric-hero-sensor.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  animation: slide-down 3s ease-out forwards;
+  animation: slide-down 3s ease-in-out forwards;
 }
 
 
 @keyframes slide-up {
 
   0% {
-    transform: translateY(96px);
+    transform: translateY(64px);
   }
 
   100% {
@@ -58,7 +58,7 @@
 @keyframes slide-down {
 
   0% {
-    transform: translateY(-32px);
+    transform: translateY(-16px);
   }
 
   100% {
