@@ -40,7 +40,7 @@
   width: 17.55rem;
 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center bottom;
 }
 
@@ -60,7 +60,8 @@
 }
 
 .unit-loyal-rescue {
-  background-color: #F5F8FD;
+  background-color: #F1F4FA;
+;
 }
 
 .unit-image-loyal-rescue {
@@ -232,7 +233,7 @@
   }
 
   .unit-image-geomattric {
-    width: 56rem;
+    width: 56.4rem;
     top: 10.6rem;
   }
 

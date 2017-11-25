@@ -1,10 +1,12 @@
 .theme-moments {
   background-color: #e0f7fa;
+
+  color: #00838f;
 }
 
-.moments-hero-image-container {
+.hero-image-container {
   height: 100vh;
-  min-height: 50rem;
+  min-height: 45rem;
 }
 
 .moments-hero-image {
@@ -16,4 +18,48 @@
   background-image: url("../images/moments/moments-hero.jpg");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.moments-animation-container {
+  height: 9rem;
+  width: 9rem;
+  left: 50%;
+  top: 10rem;
+  transform: translateX(-50%);
+}
+
+.moments-animation {
+  border-radius: 50%;
+}
+
+.moments-animation-inner {
+  height: 3rem;
+  width: 3rem;
+
+  background-color: #00bcd4;
+}
+
+.moments-animation-middle {
+  height: 6rem;
+  width: 6rem;
+
+  background-color: #4dd0e1;
+  animation: breathe 5s ease-in-out infinite alternate;
+}
+
+.moments-animation-outer {
+  height: 9rem;
+  width: 9rem;
+
+  background-color: #b2ebf2;
+  animation: breathe 5s ease-in-out infinite alternate;
+}
+
+@keyframes breathe {
+
+  to {
+    height: 3rem;
+    width: 3rem;
+  }
+
 }

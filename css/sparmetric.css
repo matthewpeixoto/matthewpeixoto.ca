@@ -11,6 +11,62 @@
   border-bottom:  2px solid rgba(255, 255, 255, .2);
 }
 
+.sparmetric-hero-container {
+  height: 32rem;
+  width: 17.4rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 17.4rem;
+  animation: slide-up 3s ease-out forwards;
+}
+
+.sparmetric-hero-phone {
+  height: 100%;
+  width: 66.15%;
+
+  background-image: url("../images/sparmetric/sparmetric-hero-phone.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sparmetric-hero-sensor {
+  height: 25%;
+  width: 40%;
+  left: 0;
+  bottom: 6rem;
+
+  background-image: url("../images/sparmetric/sparmetric-hero-sensor.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: slide-down 3s ease-out forwards;
+}
+
+
+@keyframes slide-up {
+
+  0% {
+    transform: translateY(96px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes slide-down {
+
+  0% {
+    transform: translateY(-32px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
 .sparmetric-content {
   background-color: #000;
   color: #fff;
@@ -129,6 +185,11 @@
 
 
 @media only screen and (min-width: 46em) {
+
+  .sparmetric-hero-container {
+    height: 40.46rem;
+    width: 22rem;
+  }
 
   .image-device {
     height: 37.75em;

@@ -23,7 +23,10 @@
   color: var(--color-text);
 }
 
-.light .nav,
+.light .nav {
+  background-color: rgba(240, 240, 240, .9);
+}
+
 .light .footer {
   background-color: var(--color-light);
 }
@@ -34,7 +37,10 @@
   color: #fff;
 }
 
-.dark .nav,
+.dark .nav {
+  background-color: rgba(0, 0, 0, .8);
+}
+
 .dark .footer {
   background-color: var(--color-ultradark);
 }
