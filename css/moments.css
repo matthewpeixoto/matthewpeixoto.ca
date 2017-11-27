@@ -4,7 +4,7 @@
   color: #00838f;
 }
 
-.hero-image-container {
+.moments-hero-image-container {
   height: 100vh;
   min-height: 45rem;
 }
@@ -15,7 +15,7 @@
   height: 35rem;
   width: 17.4rem;
 
-  background-image: url("../images/moments/moments-hero.jpg");
+  background-image: url("../images/moments/hero-image.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -62,4 +62,15 @@
     width: 3rem;
   }
 
+}
+
+.moments-section-intro-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.moments-section-intro-image-visual-design {
+  background-image: url("../images/moments/visual-design.jpg");
+  background-position: top center;
 }

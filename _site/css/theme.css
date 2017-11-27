@@ -50,6 +50,10 @@
   color: #fff;
 }
 
+.theme-white {
+  color: var(--color-text);
+}
+
 .theme-ultralight,
 .unit-geomattric {
   background-color:  var(--color-ultralight);

@@ -1,213 +1,208 @@
 ---
 layout: default
-title: SparMetric - Matthew Peixoto
-description: Built with Material Design, SparMetric takes your martial arts training to a whole new level.
 theme: dark
-shorttitle: SparMetric
-subtitle: UI/UX Design
+title: SparMetric - Matthew Peixoto
+short- title: SparMetric
 class: sparmetric
+description: Built with Material Design, SparMetric takes your martial arts training to a whole new level.
+og-url: https://www.matthewpeixoto.ca/sparmetric/
 ---
 
-<section class="theme-dark">
-  <div class="gutter">
-    <div class="hero-image-container center-content">
-      <div class="sparmetric-hero-container relative">
-        <figure class="sparmetric-hero-sensor absolute push-0"></figure>
-        <figure class="sparmetric-hero-phone pin-rc push-0"></figure>
+<div itemscope itemtype="">
+  <section class="theme-dark">
+    <div class="gutter">
+      <div class="sparmetric-hero-image-container center-content">
+        <div class="sparmetric-hero-image relative">
+          <figure class="sparmetric-hero-sensor absolute push-0"></figure>
+          <figure class="sparmetric-hero-phone pin-rc push-0"></figure>
+        </div>
       </div>
+      {% include hero-copy.html
+        icon="sparmetric/app-icon"
+        alt="SparMetric App Icon"
+        title="SparMetric"
+        desc="SparMetric takes your training sessions to a whole new level. It provides in-depth statistics and analysis on every strike thrown and movement made. Overviews of your strengths and weaknesses. Mid-session tips to help you make crucial adjustments. Achievements to keep you motivated. And the edge to help you become the best martial artist you can be."
+      %}
     </div>
-    <div class="text-left-center pad-b-4">
-      <i class="icon i-sm-logo push-1-2">
-        <img src="../images/sparmetric/logo.svg" alt="SparMetric" />
-      </i>
-      <h1 class="yotta push-1-2">SparMetric</h1>
-      <p class="giga medium max-length-no-center sm-intro-copy push-0">SparMetric takes your training sessions to a whole new level. It provides in-depth statistics and analysis on every strike thrown and movement made. Overviews of your strengths and weaknesses. Mid-session tips to help you make crucial adjustments. Achievements to keep you motivated. And the edge to help you become the best martial artist you can be.</p>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section>
-  {% include sparmetric-section-intro.html
-    title="User Experience"
-    subtitle="Designed for martial&nbsp;artists."
-    class="user-experience"
-  %}
-  {% include sparmetric-subsection.html
-    theme="ultradark"
-    title="Get connected."
-    desc="The more SparSensors paired, the better. Headgear SparSensors track head movement and head damage. Body SparSensors track overall core movement and body damage. Glove SparSensors track punch speed, accuracy, and power. And Shinguard SparSensors track kicks and footwork."
-    class="get-connected"
-    img-class="image-device"
-  %}
-  {% include sparmetric-subsection.html
-    theme="dark"
-    title="Ready, set, spar."
-    desc="Set the round length, rest length, and number of rounds — then just hit play. As you spar, SparMetric will automatically record and analysis every punch, kick, movement, and impact. And as you rest between rounds, SparMetric will let you know what you did right and what you did wrong so you can make those crucial mid-session adjustments."
-    class="ready-set-spar"
-    img-class="image-device"
-  %}
-  {% include sparmetric-subsection.html
-    theme="ultradark"
-    title="Every stat you’ll ever need."
-    desc="SparMetric gives you every stat you’ll ever need to improve your training and keep you injury-free. These detailed stats give you and your coaches a deeper look into your skillset and are a powerful tool in helping you hone your strengths and improve on your weaknesses. And with a Headgear Sensor, you’ll know if you’ve taken too much head damage so you can stay in the best shape possible."
-    class="stats"
-    img-class="image-device"
-  %}
-  {% include sparmetric-subsection.html
-    theme="dark"
-    title="Reach for the stars."
-    desc="Achievements can help make training fun, motivate you to push harder, and even give you some well-earned bragging rights."
-    class="achievements"
-    img-class="image-device"
-  %}
-</section>
-
-<section>
+  <section>
     {% include sparmetric-section-intro.html
-    title="Personas"
-    subtitle="Designed for every&nbsp;level."
-    class="personas"
-  %}
-  <div class="theme-black gutter pad-t-4 pad-b-4">
-    <div class="grid wrapper">
-      <div class="unit s-1 l-1-2 unit-push-l-1-2">
-        <blockquote class="push-2">
-          <p class="max-length-no-center medium mega">“I have been training since I was 8 years old and I was born to fight. SparMetric is amazing because it helps my coaches and I see the little mistakes I make during sparring that could cost me a fight. My team studies my stats for each sparring session to help me perfect my skills and keep me healthy for fights.”</p>
+      title="User Experience"
+      subtitle="Designed for martial&nbsp;artists."
+      class="user-experience"
+    %}
+    {% include sparmetric-subsection.html
+      theme="ultradark"
+      title="Get connected."
+      desc="The more SparSensors paired, the better. Headgear SparSensors track head movement and head damage. Body SparSensors track overall core movement and body damage. Glove SparSensors track punch speed, accuracy, and power. And Shinguard SparSensors track kicks and footwork."
+      class="get-connected"
+      img-class="image-device"
+    %}
+    {% include sparmetric-subsection.html
+      theme="dark"
+      title="Ready, set, spar."
+      desc="Set the round length, rest length, and number of rounds — then just hit play. As you spar, SparMetric will automatically record and analysis every punch, kick, movement, and impact. And as you rest between rounds, SparMetric will let you know what you did right and what you did wrong so you can make those crucial mid-session adjustments."
+      class="ready-set-spar"
+      img-class="image-device"
+    %}
+    {% include sparmetric-subsection.html
+      theme="ultradark"
+      title="Every stat you’ll ever need."
+      desc="SparMetric gives you every stat you’ll ever need to improve your training and keep you injury-free. These detailed stats give you and your coaches a deeper look into your skillset and are a powerful tool in helping you hone your strengths and improve on your weaknesses. And with a Headgear Sensor, you’ll know if you’ve taken too much head damage so you can stay in the best shape possible."
+      class="stats"
+      img-class="image-device"
+    %}
+    {% include sparmetric-subsection.html
+      theme="dark"
+      title="Reach for the stars."
+      desc="Achievements can help make training fun, motivate you to push harder, and even give you some well-earned bragging rights."
+      class="achievements"
+      img-class="image-device"
+    %}
+  </section>
+
+  <section>
+      {% include sparmetric-section-intro.html
+      title="Personas"
+      subtitle="Designed for every&nbsp;level."
+      class="personas"
+    %}
+    <div class="theme-black gutter pad-t-4 pad-b-4">
+      <div class="grid wrapper">
+        <div class="unit s-1 l-1-2 unit-push-l-1-2">
+          <blockquote class="push-2">
+            <p class="max-length-no-center medium mega">“I have been training since I was 8 years old and I was born to fight. SparMetric is amazing because it helps my coaches and I see the little mistakes I make during sparring that could cost me a fight. My team studies my stats for each sparring session to help me perfect my skills and keep me healthy for fights.”</p>
+              <cite class="not-italic color-light">
+              <span><strong class="medium">Carlos Junior</strong>, professional mixed martial artist</span>
+            </cite>
+          </blockquote>
+        </div>
+        <div class="unit s-1 l-1-2 unit-pull-l-1-2">
+          <figure class="push-0 sm-subsection-image image-persona-1"></figure>
+        </div>
+      </div>
+    </div>
+    <div class="theme-black gutter pad-t-4">
+      <div class="grid wrapper">
+        <div class="unit s-1 l-1-2">
+          <blockquote class="push-2">
+            <p class="max-length-no-center medium mega push">“I train martial arts because it keeps me in excellent shape and I love the thrill of sparring. SparMetric helps me see the improvements I’ve been making and the achievements motivate me to continuously push harder."</p>
             <cite class="not-italic color-light">
-            <span>
-              <strong class="medium">Carlos Junior</strong>
-              , professional mixed martial artist
-            </span>
-          </cite>
-        </blockquote>
-      </div>
-      <div class="unit s-1 l-1-2 unit-pull-l-1-2">
-        <figure class="push-0 sm-subsection-image image-persona-1"></figure>
+              <span><strong class="medium">Irene Fraser</strong>, fitness enthusiast</span>
+            </cite>
+          </blockquote>
+        </div>
+        <div class="unit s-1 l-1-2">
+          <figure class="push-0 sm-subsection-image image-persona-2"></figure>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="theme-black gutter pad-t-4">
-    <div class="grid wrapper">
-      <div class="unit s-1 l-1-2">
-        <blockquote class="push-2">
-          <p class="max-length-no-center medium meg push">“I train martial arts because it keeps me in excellent shape and I love the thrill of sparring. SparMetric helps me see the improvements I’ve been making and the achievements motivate me to continuously push harder."</p>
-          <cite class="not-italic color-light">
-            <span>
-              <strong class="medium">Irene Fraser</strong>
-              , fitness enthusiast
-            </span>
-          </cite>
-        </blockquote>
-      </div>
-      <div class="unit s-1 l-1-2">
-        <figure class="push-0 sm-subsection-image image-persona-2"></figure>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section>
-  {% include sparmetric-section-intro.html
-    title="Visual Design"
-    subtitle="Designed with meaning."
-    class="visual-design"
-  %}
-  <div class="theme-ultradark gutter pad-t-4 pad-b-4 subsection-colours">
-    <div class="wrapper">
-      <div class="push-2">
-        <h4 class="tera pad-b sparmetric-border-bottom">Not just any colours.</h4>
-        <p class="max-length-no-center mega medium push-0">SparMetric’s colour palette is sourced from Google Material and is inspired by MMA and boxing design themes. The primary colours of black and dark greys set a subdued and serious tone while the yellow accent colour adds a sense of action and energy. The secondary colours are used to represent the red and blue corners found in MMA and boxing matches are used to represent their respective stats.</p>
-      </div>
-      <div class="colours-wrapper wrapper">
-        <div class="milli medium">
-          <h5 class="kilo push-1-2 milli">Primary</h5>
-          <div class="island-1-2 light" style="background-color: #616161;">
-            <span class="block push-2">Grey</span>
-            <div class="details">
-              <span class="shade">700</span>
-              <span class="hex right">#616161</span>
+  <section>
+    {% include sparmetric-section-intro.html
+      title="Visual Design"
+      subtitle="Designed with meaning."
+      class="visual-design"
+    %}
+    <div class="theme-ultradark gutter pad-t-4 pad-b-4 subsection-colours">
+      <div class="wrapper">
+        <div class="push-2">
+          <h4 class="tera pad-b sparmetric-border-bottom">Not just any colours.</h4>
+          <p class="max-length-no-center mega medium push-0">SparMetric’s colour palette is sourced from Google Material and is inspired by MMA and boxing design themes. The primary colours of black and dark greys set a subdued and serious tone while the yellow accent colour adds a sense of action and energy. The secondary colours are used to represent the red and blue corners found in MMA and boxing matches are used to represent their respective stats.</p>
+        </div>
+        <div class="colours-wrapper wrapper">
+          <div class="milli medium">
+            <h5 class="kilo push-1-2 milli">Primary</h5>
+            <div class="island-1-2 light" style="background-color: #616161;">
+              <span class="block push-2">Grey</span>
+              <div class="details">
+                <span class="shade">700</span>
+                <span class="hex right">#616161</span>
+              </div>
             </div>
-          </div>
-          <div class="island-1-2 light" style="background-color: #424242;">
-            <span class="shade">800</span>
-            <span class="hex right">#424242</span>
-          </div>
-          <div class="island-1-2 light" style="background-color: #212121;">
-            <span class="shade">900</span>
-            <span class="hex right">#212121</span>
-          </div>
-          <div class="island-1-2 light push " style="background-color: #000000;">
-            <span class="shade">Black</span>
-            <span class="hex right">#000000</span>
-          </div>
+            <div class="island-1-2 light" style="background-color: #424242;">
+              <span class="shade">800</span>
+              <span class="hex right">#424242</span>
+            </div>
+            <div class="island-1-2 light" style="background-color: #212121;">
+              <span class="shade">900</span>
+              <span class="hex right">#212121</span>
+            </div>
+            <div class="island-1-2 light push " style="background-color: #000000;">
+              <span class="shade">Black</span>
+              <span class="hex right">#000000</span>
+            </div>
 
-          <h5 class="kilo push-1-2 milli">Secondary</h5>
-          <div class="island-1-2 light" style="background-color: #f44336;">
-            <span class="shade">Red 500</span>
-            <span class="hex right">#F44336</span>
-          </div>
-          <div class="island-1-2 light push" style="background-color: #2196f3;">
-            <span class="shade">Blue 500</span>
-            <span class="hex right">#2196F3</span>
-          </div>
+            <h5 class="kilo push-1-2 milli">Secondary</h5>
+            <div class="island-1-2 light" style="background-color: #f44336;">
+              <span class="shade">Red 500</span>
+              <span class="hex right">#F44336</span>
+            </div>
+            <div class="island-1-2 light push" style="background-color: #2196f3;">
+              <span class="shade">Blue 500</span>
+              <span class="hex right">#2196F3</span>
+            </div>
 
-          <h5 class="kilo push-1-2 milli">Accent</h5>
-          <div class="island-1-2" style="background-color: #ffd600;">
-            <span class="shade color-dark">Yellow A700</span>
-            <span class="hex right color-dark">#FFD600</span>
+            <h5 class="kilo push-1-2 milli">Accent</h5>
+            <div class="island-1-2" style="background-color: #ffd600;">
+              <span class="shade color-dark">Yellow A700</span>
+              <span class="hex right color-dark">#FFD600</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  {% include sparmetric-subsection.html
-    theme="dark"
-    title="Just the right type."
-    desc="SparMetric strictly follows the Google Material typography guidelines. Roboto is the standard typeface for Android and is extremely legible at any size and also works great on dark backgrounds. The provided Google Material typography styles are used for a consistent and familiar experience."
-    class='type'
-  %}
-  <div class="theme-ultradark gutter pad-t-4 pad-b-4 subsection-colours">
-    <div class="wrapper">
-      <div class="push-2">
-        <h4 class="tera pad-b sparmetric-border-bottom">Iconic Iconography.</h4>
-        <p class="max-length-no-center mega medium push-0">Similar to colour and typography, SparMetric uses icons from Google Material. These icons are beautifully crafted, familiar, and easily recognizable.</p>
-      </div>
-      <div class="grid color-white icons-wrapper wrapper">
-        <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#battery-charging" /></svg></i>
-        <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#battery-full" /></svg></i>
-        <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#bluetooth" /></svg></i>
-        <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#bluetooth-disabled" /></svg></i>
-        <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#history" /></svg></i>
-        <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#play" /></svg></i>
-        <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#pause" /></svg></i>
-        <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#settings" /></svg></i>
-        <i class="unit s-1-3 m-1-4 push-2 push-m-0 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#stars" /></svg></i>
-        <i class="unit s-1-3 m-1-4 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#timeline" /></svg></i>
-        <i class="unit s-1-3 m-1-4 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#track-changes" /></svg></i>
-        <i class="unit s-1-3 m-1-4 icon i-64"><svg><use xlink:href="../images/sparmetric/sparmetric-icons.svg#timer" /></svg></i>
+    {% include sparmetric-subsection.html
+      theme="dark"
+      title="Just the right type."
+      desc="SparMetric strictly follows the Google Material typography guidelines. Roboto is the standard typeface for Android and is extremely legible at any size and also works great on dark backgrounds. The provided Google Material typography styles are used for a consistent and familiar experience."
+      class="type"
+    %}
+    <div class="theme-ultradark gutter pad-t-4 pad-b-4 subsection-colours">
+      <div class="wrapper">
+        <div class="push-2">
+          <h4 class="tera pad-b sparmetric-border-bottom">Iconic Iconography.</h4>
+          <p class="max-length-no-center mega medium push-0">Similar to colour and typography, SparMetric uses icons from Google Material. These icons are beautifully crafted, familiar, and easily recognizable.</p>
+        </div>
+        <div class="grid color-white icons-wrapper wrapper">
+          <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/icons.svg#battery-charging" /></svg></i>
+          <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/icons.svg#battery-full" /></svg></i>
+          <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/icons.svg#bluetooth" /></svg></i>
+          <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/icons.svg#bluetooth-disabled" /></svg></i>
+          <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/icons.svg#history" /></svg></i>
+          <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/icons.svg#play" /></svg></i>
+          <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/icons.svg#pause" /></svg></i>
+          <i class="unit s-1-3 m-1-4 push-2 icon i-64"><svg><use xlink:href="../images/sparmetric/icons.svg#settings" /></svg></i>
+          <i class="unit s-1-3 m-1-4 push-2 push-m-0 icon i-64"><svg><use xlink:href="../images/sparmetric/icons.svg#stars" /></svg></i>
+          <i class="unit s-1-3 m-1-4 icon i-64"><svg><use xlink:href="../images/sparmetric/icons.svg#timeline" /></svg></i>
+          <i class="unit s-1-3 m-1-4 icon i-64"><svg><use xlink:href="../images/sparmetric/icons.svg#track-changes" /></svg></i>
+          <i class="unit s-1-3 m-1-4 icon i-64"><svg><use xlink:href="../images/sparmetric/icons.svg#timer" /></svg></i>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section>
-   {% include sparmetric-section-intro.html
-    title="Ideation"
-    subtitle="Designed to solve&nbsp;a&nbsp;need."
-    class="ideation"
-  %}
-  {% include sparmetric-subsection.html
-    theme="ultradark"
-    title="A built-in timer and coach."
-    desc="Martial artists needed a way to set specific round lengths, rest lengths, and number of rounds for their sparring sessions. They also need a way to get a quick assessment of their performance in between rounds and a more detailed assessment at the end of the each session."
-    class="ideation-1"
-    img-class="ideation-sketch"
-  %}
-  {% include sparmetric-subsection.html
-    theme="dark"
-    title="A simple and intuitive experience."
-    desc="SparMetric was designed with big, bold, and concise visual elements and a simple app flow so users can get what they need when they need it—even on the cusp of exhaustion."
-    class="ideation-2"
-    img-class="ideation-sketch"
-  %}
-</section>
+  <section>
+    {% include sparmetric-section-intro.html
+      title="Ideation"
+      subtitle="Designed to solve&nbsp;a&nbsp;need."
+      class="ideation"
+    %}
+    {% include sparmetric-subsection.html
+      theme="ultradark"
+      title="A built-in timer and coach."
+      desc="Martial artists needed a way to set specific round lengths, rest lengths, and number of rounds for their sparring sessions. They also need a way to get a quick assessment of their performance in between rounds and a more detailed assessment at the end of the each session."
+      class="ideation-1"
+      img-class="ideation-sketch"
+    %}
+    {% include sparmetric-subsection.html
+      theme="dark"
+      title="A simple and intuitive experience."
+      desc="SparMetric was designed with big, bold, and concise visual elements and a simple app flow so users can get what they need when they need it—even on the cusp of exhaustion."
+      class="ideation-2"
+      img-class="ideation-sketch"
+    %}
+  </section>
+</div>

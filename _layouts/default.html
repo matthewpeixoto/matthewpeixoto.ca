@@ -5,6 +5,11 @@
   <title>{{page.title}}</title>
   <meta name="description" content="{{page.description}}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{page.short-title}}">
+  <meta property="og:url" content="{{page.og-url}}">
+  <meta property="og:site_name" content="Matthew Peixoto">
+  <meta property="og:description" content="{{page.description}}">
   <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
@@ -23,7 +28,7 @@
 <body class="{{page.theme}}">
 
   <nav class="nav text-center absolute w-1" role="navigation">
-    <a class="nav-link ib island-1-2" href="{{site.baseurl}}/">
+    <a class="nav-link ib island-1-2" href="{{site.baseurl}}/" rel="home">
       <h1 class="push-0 micro">
         <span class="visually-hidden">Matthew Peixoto</span>
         <i class="icon i-logo">

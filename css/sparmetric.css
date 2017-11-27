@@ -1,4 +1,4 @@
-.i-sm-logo {
+.i-app-icon {
   height: 64px;
   width: 64px;
 }
@@ -11,7 +11,12 @@
   border-bottom:  2px solid rgba(255, 255, 255, .2);
 }
 
-.sparmetric-hero-container {
+.sparmetric-hero-image-container {
+  height: 100vh;
+  min-height: 45rem;
+}
+
+.sparmetric-hero-image {
   height: 32rem;
   width: 17.4rem;
   margin-left: auto;
@@ -25,7 +30,7 @@
   height: 100%;
   width: 66.15%;
 
-  background-image: url("../images/sparmetric/sparmetric-hero-phone.jpg");
+  background-image: url("../images/sparmetric/hero-image-phone.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -36,7 +41,7 @@
   left: 0;
   bottom: 6rem;
 
-  background-image: url("../images/sparmetric/sparmetric-hero-sensor.jpg");
+  background-image: url("../images/sparmetric/hero-image-sensor.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   animation: slide-down 3s ease-in-out forwards;
@@ -89,26 +94,19 @@
 }
 
 .sm-section-intro-image-user-experience {
-  background-image: url("../images/sparmetric/sparmetric-ux.jpg");
+  background-image: url("../images/sparmetric/intro-ux.jpg");
 }
 
 .sm-section-intro-image-personas {
-  background-image: url("../images/sparmetric/sparmetric-personas.jpg");
+  background-image: url("../images/sparmetric/intro-personas.jpg");
 }
 
 .sm-section-intro-image-visual-design {
-  background-image: url("../images/sparmetric/sparmetric-visualdesign.jpg");
+  background-image: url("../images/sparmetric/intro-visualdesign.jpg");
 }
 
 .sm-section-intro-image-ideation {
-  background-image: url("../images/sparmetric/sparmetric-ideation.jpg");
-}
-
-.sm-section-intro-image-connected {
-  background-image: url("../images/sparmetric/sparmetric-ux.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background-image: url("../images/sparmetric/intro-ideation.jpg");
 }
 
 .sm-subsection-image {
@@ -186,7 +184,11 @@
 
 @media only screen and (min-width: 46em) {
 
-  .sparmetric-hero-container {
+  .sparmetric-hero-image-container {
+    min-height: 52rem;
+  }
+
+  .sparmetric-hero-image {
     height: 40.46rem;
     width: 22rem;
   }
@@ -196,7 +198,7 @@
     width: 18.75em;
   }
 
-  .sm-intro-copy {
+  .intro-copy {
     margin-left: auto;
     margin-right: auto;
   }
@@ -243,7 +245,7 @@
 @media only screen and (min-width: 67em) {
 
 
-  .i-sm-logo {
+  .i-app-icon {
     height: 96px;
     width: 96px;
   }
