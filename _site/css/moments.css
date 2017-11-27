@@ -1,7 +1,7 @@
 .theme-moments {
   background-color: #e0f7fa;
 
-  color: #00838f;
+  color: #0097A7;
 }
 
 .moments-hero-image-container {
@@ -70,7 +70,39 @@
   background-position: center center;
 }
 
-.moments-section-intro-image-visual-design {
-  background-image: url("../images/moments/visual-design.jpg");
-  background-position: top center;
+.moments-section-intro-image-ideation {
+  background-image: url("../images/moments/ideation.jpg");
 }
+
+.moments-section-intro-image-interface {
+  background-image: url("../images/moments/interface.jpg");
+}
+
+.moments-section-intro-image-experience {
+  background-image: url("../images/moments/experience.jpg");
+}
+
+.image-goals {
+  background-image: url("../images/moments/goals.jpg");
+}
+
+.image-review {
+  background-image: url("../images/moments/review.jpg");
+}
+
+.image-moment {
+  background-image: url("../images/moments/moment.jpg");
+}
+
+.image-history {
+  background-image: url("../images/moments/history.jpg");
+}
+
+.image-awards {
+  background-image: url("../images/moments/awards.jpg");
+}
+
+
+
+
+
