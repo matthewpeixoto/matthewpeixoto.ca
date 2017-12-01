@@ -1,12 +1,30 @@
 .theme-moments {
   background-color: #e0f7fa;
 
-  color: #0097A7;
+  color: #0097a7;
+}
+
+.moments-section-hero {
+  background: linear-gradient(#e0f7fa, #b2ebf2);
+
+  color: #0097a7;
+}
+
+.moments-icons {
+  color: #00aa8d;
 }
 
 .moments-hero-image-container {
   height: 100vh;
   min-height: 45rem;
+}
+
+.image-user {
+  height: 12.68rem;
+  width: 17.4rem;
+  background-image: url("../images/moments/user.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .moments-hero-image {
@@ -15,7 +33,7 @@
   height: 35rem;
   width: 17.4rem;
 
-  background-image: url("../images/moments/hero-image.jpg");
+  background-image: url("../images/moments/hero-image.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -64,22 +82,24 @@
 
 }
 
-.moments-section-intro-image {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+/* .moments-intro-copy {
+  opacity: 0;
+  transform: translateY(16px);
+
+  transition: all .75s .25s ease-out;
 }
 
-.moments-section-intro-image-ideation {
-  background-image: url("../images/moments/ideation.jpg");
-}
+.js-moments-intro-copy-animate {
+  opacity: 1;
+  transform: translateY(0);
+} */
 
-.moments-section-intro-image-interface {
-  background-image: url("../images/moments/interface.jpg");
-}
+.image-moments-symbolism {
+  height: 17.13em;
+  width: 17.375em;
 
-.moments-section-intro-image-experience {
-  background-image: url("../images/moments/experience.jpg");
+  background-image: url("../images/moments/symbolism.jpg");
+  background-size: contain;
 }
 
 .image-goals {
@@ -102,7 +122,30 @@
   background-image: url("../images/moments/awards.jpg");
 }
 
+@media only screen and (min-width: 46em) {
 
+  .image-user {
+    height: 19rem;
+    width: 26.1rem;
+  }
 
+}
 
+@media only screen and (min-width: 46em) {
+
+  .image-moments-symbolism {
+    height: 18.49em;
+    width: 18.75em;
+  }
+
+}
+
+@media only screen and (min-width: 67em) {
+
+  .image-moments-symbolism {
+    height: 20.17em;
+    width: 20.45em;
+  }
+
+}
 

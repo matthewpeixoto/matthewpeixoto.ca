@@ -47,6 +47,8 @@
 .unit-secondary-image {
   height: 100%;
   width: 100%;
+
+  background-size: cover;
 }
 
 .unit-sparmetric {
@@ -123,10 +125,10 @@
     line-height: 1.75rem;
   }
 
- /*  .unit-primary:last-child {
+  .unit-primary:last-child {
     margin-bottom: 0;
   }
- */
+
   .unit-secondary,
   .unit-secondary-list {
     margin-bottom: 0;

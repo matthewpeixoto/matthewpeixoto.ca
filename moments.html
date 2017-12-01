@@ -8,7 +8,7 @@ description: Take a moment to quiet your mind with this simple and beautifully d
 og-url: https://www.matthewpeixoto.ca/moments/
 ---
 
-<section class="theme-moments">
+<section class="moments-section-hero">
   <div class="gutter">
     <div class="moments-hero-image-container center-content">
       <div class="relative">
@@ -27,6 +27,9 @@ og-url: https://www.matthewpeixoto.ca/moments/
       desc="Finding a few moments each day to take a few deep breaths and quiet your mind is a great way to relieve stress and improve your overall health. The Moments app and necklace work together to help you decompress and stay centred throughout your busy day by tracking your breathing, analyzing your heart rate, and guiding you through moments of complete mindfulness."
     %}
   </div>
+<!--   <div class="theme-white center-content">
+    <figure class="image-user push-0"></figure>
+  </div> -->
 </section>
 
 <section>
@@ -42,9 +45,9 @@ og-url: https://www.matthewpeixoto.ca/moments/
     class="moments-colour"
   %}
   {% include moments-subsection.html
-    theme="white"
-    title="Designed for health"
-    desc="With our busy lives our minds can get pretty restless, but our brains aren’t wired to be always switched on. Many people are already aware of the benefits of living a more mindful life, but there aren’t many apps that remind, motivate, and guide them along the way. Moments was created to fill that gap."
+    theme="ultralight"
+    title="The users"
+    desc="Moments was designed for people who live busy lives. Whether it be a business owner who is constantly thinking about their business or a high school student studying for exams — anyone can benefit from taking some time to quiet their mind, relax their body, and just be in the moment."
     class="moments-colour"
   %}
 </section>
@@ -52,25 +55,66 @@ og-url: https://www.matthewpeixoto.ca/moments/
 <section>
   {% include moments-section-intro.html
     title="Interface"
-    subtitle="Material design with&nbsp;a&nbsp;splash&nbsp;of&nbsp;zen."
+    subtitle="Material design. Now&nbsp;more&nbsp;zen."
     class="interface"
   %}
   {% include moments-subsection.html
     theme="white"
-    title="Colour"
-    desc="Moments' colour palette is inspired by calming nature elements to help soothe the body and mind."
-    class="moments-colour"
+    title="Symbolism"
+    desc="Symbolism "
+    class="moments-symbolism"
   %}
+  <div class="theme-ultralight gutter pad-t-4 pad-b-4 subsection-colour">
+    <div class="wrapper">
+      {% include moments-subsection-copy.html
+        title="Colour"
+        desc="Moments' colour palette is inspired by calming nature elements to help soothe the body and mind."
+      %}
+      <div class="grid max-length color-medium text-center">
+        <div class="unit s-1 m-1-3 milli push-2 push-m-0">
+          <i class="icon i-128 push-1-2"><img src="../images/moments/swatch-primary.jpg" alt="" /></i>
+          <div>Primary</div>
+          <div>#00AA8D</div>
+        </div>
+        <div class="unit s-1 m-1-3 milli push-2 push-m-0">
+          <i class="icon i-128 push-1-2"><img src="../images/moments/swatch-secondary.jpg" alt="" /></i>
+          <div>Secondary</div>
+          <div>#000BCD4</div>
+        </div>
+        <div class="unit s-1 m-1-3 milli">
+          <i class="icon i-128 push-1-2"><img src="../images/moments/swatch-accent.jpg" alt="" /></i>
+          <div>Accent</div>
+          <div>#1DE9B6</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="theme-white gutter pad-t-4 pad-b-4 subsection-iconography">
+    <div class="wrapper">
+      {% include moments-subsection-copy.html
+        title="Iconography"
+        desc="Icono"
+      %}
+      <div class="moments-icons max-length">
+        {% include icon-ib.html icon="../images/moments/icons.svg#focus" %}
+        {% include icon-ib.html icon="../images/moments/icons.svg#check" %}
+        {% include icon-ib.html icon="../images/moments/icons.svg#flash" %}
+        {% include icon-ib.html icon="../images/moments/icons.svg#star" %}
+        {% include icon-ib.html icon="../images/moments/icons.svg#history" %}
+        {% include icon-ib.html icon="../images/moments/icons.svg#music" %}
+        {% include icon-ib.html icon="../images/moments/icons.svg#play" %}
+        {% include icon-ib.html icon="../images/moments/icons.svg#settings" %}
+        {% include icon-ib.html icon="../images/moments/icons.svg#share" %}
+        {% include icon-ib.html icon="../images/moments/icons.svg#spa" %}
+        {% include icon-ib.html icon="../images/moments/icons.svg#stop" %}
+        {% include icon-ib.html icon="../images/moments/icons.svg#today" %}
+      </div>
+    </div>
+  </div>
   {% include moments-subsection.html
     theme="ultralight"
-    title="Iconography"
-    desc="Material design icons c"
-    class="moments-icons"
-  %}
-  {% include moments-subsection.html
-    theme="white"
     title="Typography"
-    desc="Roboto delivers a familiar and unified experience and allows Moments' beautiful visuals in take center stage."
+    desc="Roboto delivers a familiar and unified experience and allows Moments' beautiful visuals to take center stage."
     class="moments-typography"
   %}
 </section>
@@ -78,26 +122,26 @@ og-url: https://www.matthewpeixoto.ca/moments/
 <section>
   {% include moments-section-intro.html
     title="Experience"
-    subtitle="A simple app for&nbsp;a&nbsp;busy&nbsp;life."
+    subtitle="An experience to forget."
     class="experience"
   %}
   {% include moments-subsection.html
     theme="white"
-    title="Complete your&nbsp;goals"
-    desc="Set a daily moment goal and close your ensō by taking daily regular moments throughout your day."
+    title="Reach your goals"
+    desc="Set a daily moment goal and close your ensō by taking moments throughout your day."
     class="goals"
     img-class="image-device"
   %}
   {% include moments-subsection.html
     theme="ultralight"
-    title="Review your&nbsp;day"
-    desc="See at exactly which times in your day you were feeling calm, focused, or tense."
+    title="Review your day"
+    desc="See at which times in your day you were feeling calm, focused, and tense."
     class="review"
     img-class="image-device"
   %}
   {% include moments-subsection.html
     theme="white"
-    title="Take a&nbsp;moment"
+    title="Take a moment"
     desc="Quiet your mind and relax your body as Moments guides you through a moment of complete mindfulness."
     class="moment"
     img-class="image-device"
@@ -105,7 +149,7 @@ og-url: https://www.matthewpeixoto.ca/moments/
   {% include moments-subsection.html
     theme="ultralight"
     title="View your history"
-    desc="See the progress you have made, review specific days, and stay on track to complete every day’s ensō."
+    desc="See the progress you've made, review specific days, and stay on track to complete every day’s ensō."
     class="history"
     img-class="image-device"
   %}

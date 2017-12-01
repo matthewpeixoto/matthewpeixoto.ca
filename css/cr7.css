@@ -1,0 +1,93 @@
+.cr7-html {
+  overflow: hidden;
+}
+
+.cr7-body {
+  overflow: hidden;
+  min-width: 320px;
+
+  background-color: #030406;
+}
+
+.parallax-wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  -webkit-perspective: 1px;
+  perspective: 1px;
+}
+
+.parallax-content {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.horizon {
+  -webkit- transform: translateZ(-8px) scale(10);
+  transform: translateZ(-8px) scale(10);
+
+  top: calc(((100vh - 75vw) / 4) * -2);
+}
+
+.boots {
+  -webkit- transform: translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
+
+  top: 100em;
+  animation: boots-float 120s ease-out forwards;
+}
+
+.cr7-logo {
+  -webkit-transform: translateZ(-4px) scale(3);
+  transform: translateZ(-4px) scale(3);
+
+  top: 5em;
+
+  animation: logo-float 120s ease-out forwards;
+}
+
+.asteroids {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+
+  top: 40em;
+  animation: asteroids-float 120s ease-out forwards;
+}
+
+@keyframes boots-float {
+
+  0% {
+    top: 100em;
+  }
+
+  100% {
+    top: 50em;
+  }
+
+}
+
+@keyframes logo-float {
+
+  0% {
+    top: 5em;
+  }
+
+  100% {
+    top: 0;
+  }
+
+}
+
+@keyframes asteroids-float {
+
+  0% {
+    top: 100em;
+  }
+
+  100% {
+    top: 25em;
+  }
+
+}

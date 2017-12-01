@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="en-ca" class="{{page.html-class}}">
 <head>
   <meta charset="utf-8">
   <title>{{page.title}}</title>
@@ -22,19 +22,29 @@
   <link href="{{site.baseurl}}/css/sparmetric.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/dive.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/moments.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/cr7.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
   <link href="{{site.baseurl}}/favicon.ico" rel="shortcut icon">
 </head>
-<body class="{{page.theme}}">
+<body class="{{page.theme}} {{page.body-class}}">
 
-  <nav class="nav text-center absolute w-1" role="navigation">
+  <nav class="nav text-center absolute w-1 zindex-1000" role="navigation">
     <a class="nav-link ib island-1-2" href="{{site.baseurl}}/" rel="home">
-      <h1 class="push-0 micro">
-        <span class="visually-hidden">Matthew Peixoto</span>
-        <i class="icon i-logo">
-          <svg class='logo'><use xlink:href="{{site.baseurl}}/images/icons.svg#matthew-peixoto"></use></svg>
-        </i>
-      </h1>
+      {% if page.url == '/' %}
+        <h1 class="push-0 micro">
+          <span class="visually-hidden">Matthew Peixoto</span>
+          <i class="icon i-logo">
+            <svg class='logo'><use xlink:href="{{site.baseurl}}/images/icons.svg#matthew-peixoto"></use></svg>
+          </i>
+        </h1>
+      {% else %}
+        <strong class="push-0 micro block">
+          <span class="visually-hidden">Matthew Peixoto</span>
+          <i class="icon i-logo">
+            <svg class='logo'><use xlink:href="{{site.baseurl}}/images/icons.svg#matthew-peixoto"></use></svg>
+          </i>
+        </strong>
+      {% endif %}
     </a>
   </nav>
 
@@ -42,7 +52,7 @@
     {{content}}
   </main>
 
-  <footer class="footer gutter color-light" role="contentinfo" id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+  <footer class="footer gutter color-light zindex-1000" role="contentinfo" id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
     <div class="wrapper pad-t pad-b">
       <div class="milli">
         <p class="push-1-2">&copy; <span itemprop="name">Matthew Peixoto</span>
