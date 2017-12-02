@@ -9,6 +9,20 @@
   background-color: #030406;
 }
 
+.btn-cr7 {
+  padding: .75em 1.5em .84em;
+
+  background-color: #fff;
+  color: #000;
+  border-radius: 2px;
+}
+
+.btn-cr7:hover,
+.btn-cr7:focus {
+  background-color: #fff;
+  color: #000;
+}
+
 .parallax-wrapper {
   height: 100vh;
   overflow-y: auto;
@@ -46,6 +60,13 @@
   top: 5em;
 
   animation: logo-float 120s ease-out forwards;
+}
+
+.cr7-copy {
+  -webkit-transform: translateZ(-5px) scale(5);
+  transform: translateZ(-5px) scale(5);
+
+  top: 300em;
 }
 
 .asteroids {

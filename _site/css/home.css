@@ -1,6 +1,10 @@
-.hero-info {
+.hero-info{
   animation: shift .75s .25s ease-out both;
 }
+
+/* .unit-image-intro {
+  animation: shift .75s .25s ease-out both;
+} */
 
 @keyframes shift {
 
@@ -32,7 +36,7 @@
   height: 18.9rem;
   width: 17.4rem;
 
-  background-image: url("");
+  background-image: url("../images/home/self.jpg");
 }
 
 .unit-image {
@@ -49,6 +53,7 @@
   width: 100%;
 
   background-size: cover;
+  background-position: center center;
 }
 
 .unit-sparmetric {
@@ -88,30 +93,25 @@
   background-image: url("../images/home/s-moments.jpg");
 }
 
-.unit-dive {
-  background: linear-gradient(
-    -10deg,
-    #148E97 60%,
-    #FFFDE7 60%
-  );
-}
-
 .unit-image-dive {
-  height: 15rem;
-  width: 15rem;
-  top: 14rem;
-
-  background-image: url("../images/home/dive.jpg");
+  background-image: url("../images/home/dive2.jpg");
 }
 
 .unit-cr7 {
+  display: none;
+  visibility: hidden;
+
   color: #fff;
 }
 
 .unit-image-cr7 {
   background-image: url("../images/home/cr7.jpg");
-  background-position: center center;
 }
+
+  .unit-primary:last-child {
+    margin-bottom: 0;
+  }
+
 
 @media only screen and (min-width: 46em) {
 
@@ -123,10 +123,6 @@
   .to-mega {
     font-size: 1.2rem;
     line-height: 1.75rem;
-  }
-
-  .unit-primary:last-child {
-    margin-bottom: 0;
   }
 
   .unit-secondary,
@@ -185,10 +181,9 @@
     background-image: url("../images/home/m-moments.jpg");
   }
 
-  .unit-image-dive {
-    height: 20rem;
-    width: 20rem;
-    top: 17rem;
+  .unit-cr7 {
+    display: block;
+    visibility: visible;
   }
 
 }
@@ -240,11 +235,6 @@
 
   .unit-image-moments {
     width: 18.97rem;
-  }
-
-  .unit-image-dive {
-    height: 21rem;
-    width: 21rem;
   }
 
 }

@@ -27,9 +27,6 @@ og-url: https://www.matthewpeixoto.ca/moments/
       desc="Finding a few moments each day to take a few deep breaths and quiet your mind is a great way to relieve stress and improve your overall health. The Moments app and necklace work together to help you decompress and stay centred throughout your busy day by tracking your breathing, analyzing your heart rate, and guiding you through moments of complete mindfulness."
     %}
   </div>
-<!--   <div class="theme-white center-content">
-    <figure class="image-user push-0"></figure>
-  </div> -->
 </section>
 
 <section>
@@ -93,9 +90,9 @@ og-url: https://www.matthewpeixoto.ca/moments/
     <div class="wrapper">
       {% include moments-subsection-copy.html
         title="Iconography"
-        desc="Icono"
+        desc="Material icons are beautifully crafted, delightful, and easily recognizable."
       %}
-      <div class="moments-icons max-length">
+      <div class="color-moments max-length">
         {% include icon-ib.html icon="../images/moments/icons.svg#focus" %}
         {% include icon-ib.html icon="../images/moments/icons.svg#check" %}
         {% include icon-ib.html icon="../images/moments/icons.svg#flash" %}
@@ -111,12 +108,17 @@ og-url: https://www.matthewpeixoto.ca/moments/
       </div>
     </div>
   </div>
-  {% include moments-subsection.html
-    theme="ultralight"
-    title="Typography"
-    desc="Roboto delivers a familiar and unified experience and allows Moments' beautiful visuals to take center stage."
-    class="moments-typography"
-  %}
+   <div class="theme-ultralight gutter pad-t-4 pad-b-4 subsection-iconography">
+    <div class="wrapper">
+      {% include moments-subsection-copy.html
+        title="Typography"
+        desc="Roboto delivers a familiar and unified experience and allows Moments' beautiful visuals to take center stage."
+      %}
+      <div class="text-center">
+        <span class="tenamega color-moments">Rr</span>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section>
@@ -160,4 +162,19 @@ og-url: https://www.matthewpeixoto.ca/moments/
     class="awards"
     img-class="image-device"
   %}
+</section>
+
+<section>
+  <div class="theme-ultralight gutter pad-t-2 pad-b-2 text-center">
+    <i class="icon i-48 push-1-2">
+      <svg><use xlink:href="../../images/icons.svg#xd" /></svg>
+    </i>
+    <div>
+      {% include btn-icon.html
+        href="https://xd.adobe.com/view/6c2e9a95-2a1a-45c0-8bfc-7fde6f69696b/"
+        text="Use the prototype"
+        class="mega"
+      %}
+    </div>
+  </div>
 </section>
