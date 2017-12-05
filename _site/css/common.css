@@ -1,7 +1,11 @@
-body {
+html {
   min-width: 320px;
 
   color: var(--color-text);
+  font-family: sans-serif;
+}
+
+.fonts-loaded {
   font-family: "Roboto", sans-serif;
 }
 
@@ -22,10 +26,6 @@ h6 {
 
 strong {
   font-weight: 400;
-}
-
-.bold {
-  font-weight: 700;
 }
 
 .medium {
