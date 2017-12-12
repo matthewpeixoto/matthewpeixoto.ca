@@ -1,3 +1,108 @@
 .geomattric-hero-container {
   height: 100vh;
 }
+
+.gm-border-top {
+  border-top: 1px solid #dcdcdc;
+}
+
+.geometric-forms-image-container {
+  height: 25em;
+}
+
+.geometric-forms-1 {
+  height: 60%;
+  width: auto;
+}
+
+/* Red Rectangle */
+.geometric-forms-2 {
+  height: 20%;
+  width: auto;
+
+  right: 100%;
+  bottom: 0;
+}
+
+/* Cyan Square */
+.geometric-forms-3 {
+  height: 9%;
+  width: auto;
+
+  top: 0;
+  right: 95%;
+}
+
+/* Blue Square */
+.geometric-forms-4 {
+  height: 9%;
+  width: auto;
+
+  top: 60%;
+  left: 75%;
+}
+
+/* Blue Rectangle */
+.geometric-forms-5 {
+  height: 16%;
+  width: auto;
+
+  left: 95%;
+  top: 20%;
+}
+
+/* Green Circle */
+.geometric-forms-6 {
+  height: 16%;
+  width: auto;
+
+  left: 90%;
+  bottom: 0;
+}
+
+/* Purple Rectangle */
+.geometric-forms-7 {
+  height: 20%;
+  width: auto;
+
+  top: 40%;
+  right: 80%;
+}
+
+.friendly-curves-1 {
+  width: 90%;
+}
+
+.friendly-curves-2 {
+  width: 50%;
+  right: 0;
+  bottom: 0;
+}
+
+.modular-system,
+.friendly-curves-1,
+.friendly-curves-2,
+.geometric-forms {
+  transform: translateY(40px);
+  transition: all 5s ease-out;
+}
+
+.js-geomattric-shift {
+  transform: translateY(0);
+}
+
+.modular-system: {
+  transform: translateY(-40px);
+}
+
+@media only screen and (min-width: 46em) {
+
+  .geometric-forms-image-container {
+    height: 40em;
+  }
+
+  .geometric-forms-1 {
+    height: 75%;
+  }
+
+}
