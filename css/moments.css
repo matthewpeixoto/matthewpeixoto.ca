@@ -102,6 +102,14 @@
   background-size: contain;
 }
 
+.image-moments-typography {
+  height: 14.39rem;
+  width: 17.375em;
+
+  background-image: url("../images/moments/type.svg");
+  background-size: contain;
+}
+
 .image-goals {
   background-image: url("../images/moments/goals.jpg");
 }
@@ -138,12 +146,22 @@
     width: 18.75em;
   }
 
+  .image-moments-typography {
+    height: 15.53rem;
+    width: 18.75em;
+  }
+
 }
 
 @media only screen and (min-width: 67em) {
 
   .image-moments-symbolism {
     height: 20.17em;
+    width: 20.45em;
+  }
+
+  .image-moments-typography {
+    height: 16.94rem;
     width: 20.45em;
   }
 

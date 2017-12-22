@@ -63,15 +63,21 @@ og-url: https://www.matthewpeixoto.ca/moments/
       %}
       <div class="grid max-length color-medium text-center">
         <div class="unit s-1 m-1-3 milli push-2 push-m-0">
-          <i class="icon i-128 push-1-2"><img src="../images/moments/swatch-primary.jpg" alt="" /></i>
+          <i class="icon i-128 push-1-2">
+            <img src="{{site.baseurl}}/images/moments/swatch-primary.jpg" alt="" />
+          </i>
           <div>Primary</div>
         </div>
         <div class="unit s-1 m-1-3 milli push-2 push-m-0">
-          <i class="icon i-128 push-1-2"><img src="../images/moments/swatch-secondary.jpg" alt="" /></i>
+          <i class="icon i-128 push-1-2">
+            <img src="{{site.baseurl}}/images/moments/swatch-secondary.jpg" alt="" />
+          </i>
           <div>Secondary</div>
         </div>
         <div class="unit s-1 m-1-3 milli">
-          <i class="icon i-128 push-1-2"><img src="../images/moments/swatch-accent.jpg" alt="" /></i>
+          <i class="icon i-128 push-1-2">
+            <img src="{{site.baseurl}}/images/moments/swatch-accent.jpg" alt="" />
+          </i>
           <div>Accent</div>
         </div>
       </div>
@@ -99,17 +105,12 @@ og-url: https://www.matthewpeixoto.ca/moments/
       </div>
     </div>
   </div>
-   <div class="theme-ultralight gutter pad-t-4 pad-b-4 subsection-iconography">
-    <div class="wrapper">
-      {% include moments-subsection-copy.html
-        title="Typography"
-        desc="Roboto delivers a familiar and unified experience and allows Moments' beautiful visuals to take center stage."
-      %}
-      <div class="text-center">
-        <span class="tenamega color-moments">Rr</span>
-      </div>
-    </div>
-  </div>
+  {% include moments-subsection.html
+    theme="ultralight"
+    title="Typography"
+    desc="Roboto delivers a familiar and unified experience and allows Moments' beautiful visuals to take center stage."
+    class="moments-typography"
+  %}
 </section>
 
 <section>

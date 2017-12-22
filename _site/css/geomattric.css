@@ -7,10 +7,10 @@
   animation: gm-video-animate 1s ease-in-out .5s forwards;
 }
 
-.gm-intro-title {
+.gm-intro-copy {
   opacity: 0;
   transform: translateY(80px);
-  animation: gm-title-animate 1s ease-in-out 1.5s forwards;
+  animation: gm-copy-animate 1s ease-in-out 1.5s forwards;
 }
 
 
@@ -26,7 +26,7 @@
 
 }
 
-@keyframes gm-title-animate {
+@keyframes gm-copy-animate {
 
   0% {
     opacity: 0;
