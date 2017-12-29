@@ -2959,7 +2959,7 @@ a:active {
   height: 18.9rem;
   width: 17.4rem;
 
-  background-image: url("../images/home/self.jpg");
+  background-image: url("/images/home/self.jpg");
 }
 
 .unit-image {
@@ -2986,24 +2986,24 @@ a:active {
 }
 
 .unit-image-sparmetric {
-  background-image: url("../images/home/s-sparmetric.jpg");
+  background-image: url("/images/home/s-sparmetric.jpg");
 }
 
 .unit-loyal-rescue {
-  background-color: #F1F4FA;
+  background-color: #f1f4fa;
 }
 
 .unit-image-loyal-rescue {
   width: 21.5rem;
 
-  background-image: url("../images/home/loyal-rescue.jpg");
+  background-image: url("/images/home/loyal-rescue.jpg");
 }
 
 .unit-image-geomattric {
   height: 17.55rem;
   top: 9.86rem;
 
-  background-image: url("../images/home/s-geomattric.jpg");
+  background-image: url("/images/home/s-geomattric.jpg");
 }
 
 .unit-moments {
@@ -3013,11 +3013,11 @@ a:active {
 .unit-image-moments {
   width: 12.1rem;
 
-  background-image: url("../images/home/s-moments.jpg");
+  background-image: url("/images/home/s-moments.jpg");
 }
 
 .unit-image-dive {
-  background-image: url("../images/home/dive2.jpg");
+  background-image: url("/images/home/dive2.jpg");
 }
 
 .unit-cr7 {
@@ -3028,7 +3028,7 @@ a:active {
 }
 
 .unit-image-cr7 {
-  background-image: url("../images/home/cr7.jpg");
+  background-image: url("/images/home/cr7.jpg");
 }
 
   .unit-primary:last-child {
@@ -3087,7 +3087,7 @@ a:active {
   }
 
   .unit-image-sparmetric {
-    background-image: url("../images/home/m-sparmetric.jpg");
+    background-image: url("/images/home/m-sparmetric.jpg");
   }
 
   .unit-image-geomattric {
@@ -3095,13 +3095,13 @@ a:active {
     width: 42rem;
     top: 14rem;
 
-    background-image: url("../images/home/m-geomattric.jpg");
+    background-image: url("/images/home/m-geomattric.jpg");
   }
 
   .unit-image-moments {
     width: 18.91rem;
 
-    background-image: url("../images/home/m-moments.jpg");
+    background-image: url("/images/home/m-moments.jpg");
   }
 
   .unit-cr7 {
@@ -3454,30 +3454,35 @@ a:active {
 
 }
 
-.video-container {
-  max-width: 72em;
+.theme-loyal-rescue {
+  background-color: #f1f4fa;
+}
+
+.loyal-rescue-hero-image {
+  height: 21.5rem;
+  width: 21.5rem;
+
+  background-image: url("/images/home/loyal-rescue.jpg");
+  background-size: contain;
 }
 
 @media only screen and (min-width: 46em) {
 
-  .video-container {
-    margin-bottom: 2.8rem;
-    padding-top: 2.8rem;
+  .loyal-rescue-hero-image {
+    height: 25rem;
+    width: 25rem;
   }
 
 }
 
 @media only screen and (min-width: 67em) {
 
-  .video-container {
-    margin-bottom: 6rem;
-    padding-top: 6rem;
+  .loyal-rescue-hero-image {
+    height: 30rem;
+    width: 30rem;
   }
 
 }
-
-
-
 
 .theme-moments {
   background-color: #e0f7fa;
@@ -3500,13 +3505,13 @@ a:active {
   min-height: 45rem;
 }
 
-.image-user {
-  height: 12.68rem;
-  width: 17.4rem;
-  background-image: url("../images/moments/user.jpg");
+/* .image-user {
+  height: 50;
+  width: 100%;
+  background-image: url("../images/moments/user-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 .moments-hero-image {
   margin-left: auto;
@@ -3609,15 +3614,6 @@ a:active {
 
 .image-awards {
   background-image: url("../images/moments/awards.jpg");
-}
-
-@media only screen and (min-width: 46em) {
-
-  .image-user {
-    height: 19rem;
-    width: 26.1rem;
-  }
-
 }
 
 @media only screen and (min-width: 46em) {
@@ -3795,6 +3791,31 @@ a:active {
   }
 
 }
+
+.video-container {
+  max-width: 72em;
+}
+
+@media only screen and (min-width: 46em) {
+
+  .video-container {
+    margin-bottom: 2.8rem;
+    padding-top: 2.8rem;
+  }
+
+}
+
+@media only screen and (min-width: 67em) {
+
+  .video-container {
+    margin-bottom: 6rem;
+    padding-top: 6rem;
+  }
+
+}
+
+
+
 
 .cr7-html {
   overflow: hidden;

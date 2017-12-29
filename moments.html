@@ -35,12 +35,13 @@ og-url: https://www.matthewpeixoto.ca/moments/
     subtitle="A simple app for&nbsp;a&nbsp;busy&nbsp;life."
     class="ideation"
   %}
-  {% include moments-subsection.html
-    theme="white"
-    title="Designed for all"
-    desc="Moments was designed for people who live busy lives. Whether it be a business owner worrying about their business or a student studying for exams — anyone can benefit from taking some time to just be in the moment."
-    class="moments-colour"
-  %}
+  <div class="wrapper gutter pad-t-4">
+    {% include moments-subsection-copy.html
+      title="Designed for all"
+      desc="Moments was designed for people who live busy lives. Whether it be a business owner worrying about their business or a student studying for exams — anyone can benefit from taking some time to just be in the moment."
+    %}
+  </div>
+  <img class="img-flex" src="{{site.baseurl}}/images/moments/user.jpg" />
 </section>
 
 <section>

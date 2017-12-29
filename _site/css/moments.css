@@ -19,13 +19,13 @@
   min-height: 45rem;
 }
 
-.image-user {
-  height: 12.68rem;
-  width: 17.4rem;
-  background-image: url("../images/moments/user.jpg");
+/* .image-user {
+  height: 50;
+  width: 100%;
+  background-image: url("../images/moments/user-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 .moments-hero-image {
   margin-left: auto;
@@ -128,15 +128,6 @@
 
 .image-awards {
   background-image: url("../images/moments/awards.jpg");
-}
-
-@media only screen and (min-width: 46em) {
-
-  .image-user {
-    height: 19rem;
-    width: 26.1rem;
-  }
-
 }
 
 @media only screen and (min-width: 46em) {

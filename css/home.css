@@ -36,7 +36,7 @@
   height: 18.9rem;
   width: 17.4rem;
 
-  background-image: url("../images/home/self.jpg");
+  background-image: url("{{site.baseurl}}/images/home/self.jpg");
 }
 
 .unit-image {
@@ -63,24 +63,24 @@
 }
 
 .unit-image-sparmetric {
-  background-image: url("../images/home/s-sparmetric.jpg");
+  background-image: url("{{site.baseurl}}/images/home/s-sparmetric.jpg");
 }
 
 .unit-loyal-rescue {
-  background-color: #F1F4FA;
+  background-color: #f1f4fa;
 }
 
 .unit-image-loyal-rescue {
   width: 21.5rem;
 
-  background-image: url("../images/home/loyal-rescue.jpg");
+  background-image: url("{{site.baseurl}}/images/home/loyal-rescue.jpg");
 }
 
 .unit-image-geomattric {
   height: 17.55rem;
   top: 9.86rem;
 
-  background-image: url("../images/home/s-geomattric.jpg");
+  background-image: url("{{site.baseurl}}/images/home/s-geomattric.jpg");
 }
 
 .unit-moments {
@@ -90,11 +90,11 @@
 .unit-image-moments {
   width: 12.1rem;
 
-  background-image: url("../images/home/s-moments.jpg");
+  background-image: url("{{site.baseurl}}/images/home/s-moments.jpg");
 }
 
 .unit-image-dive {
-  background-image: url("../images/home/dive2.jpg");
+  background-image: url("{{site.baseurl}}/images/home/dive2.jpg");
 }
 
 .unit-cr7 {
@@ -105,7 +105,7 @@
 }
 
 .unit-image-cr7 {
-  background-image: url("../images/home/cr7.jpg");
+  background-image: url("{{site.baseurl}}/images/home/cr7.jpg");
 }
 
   .unit-primary:last-child {
@@ -164,7 +164,7 @@
   }
 
   .unit-image-sparmetric {
-    background-image: url("../images/home/m-sparmetric.jpg");
+    background-image: url("{{site.baseurl}}/images/home/m-sparmetric.jpg");
   }
 
   .unit-image-geomattric {
@@ -172,13 +172,13 @@
     width: 42rem;
     top: 14rem;
 
-    background-image: url("../images/home/m-geomattric.jpg");
+    background-image: url("{{site.baseurl}}/images/home/m-geomattric.jpg");
   }
 
   .unit-image-moments {
     width: 18.91rem;
 
-    background-image: url("../images/home/m-moments.jpg");
+    background-image: url("{{site.baseurl}}/images/home/m-moments.jpg");
   }
 
   .unit-cr7 {
