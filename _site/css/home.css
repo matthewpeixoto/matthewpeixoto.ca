@@ -32,13 +32,6 @@
   outline-offset: -3px;
 }
 
-.unit-image-intro {
-  height: 18.9rem;
-  width: 17.4rem;
-
-  background-image: url("{{site.baseurl}}/images/home/self.jpg");
-}
-
 .unit-image {
   height: 21.5rem;
   width: 17.55rem;
@@ -46,6 +39,12 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center bottom;
+}
+
+.unit-image-intro {
+  height: 16.32rem;
+
+  background-image: url("{{site.baseurl}}/images/home/self.jpg");
 }
 
 .unit-secondary-image {
@@ -153,14 +152,13 @@
     width: 28.1rem;
   }
 
+  .unit-image-intro {
+    height: 26.12rem;
+  }
+
   .unit-secondary-image {
     height: 100%;
     width: 100%;
-  }
-
-  .intro-unit-image {
-    height: calc(46.6rem - 15.63rem);
-    width: 14.8rem;
   }
 
   .unit-image-sparmetric {
@@ -221,6 +219,10 @@
   .unit-image {
     height: 28.2rem;
     width: 28.2rem;
+  }
+
+  .unit-image-intro {
+    height: 26.22rem;
   }
 
   .unit-secondary-image {

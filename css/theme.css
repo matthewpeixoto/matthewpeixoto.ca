@@ -45,6 +45,15 @@
   background-color: rgba(0, 0, 0, .8);
 }
 
+.dark .footer,
+.dark .footer-link {
+  color: #999;
+}
+
+.dark .footer-link:hover {
+  color: #ccc;
+}
+
 .dark .footer {
   background-color: var(--color-ultradark);
 }
