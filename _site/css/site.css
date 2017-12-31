@@ -2962,6 +2962,10 @@ a:active {
   outline-offset: -3px;
 }
 
+.unit-secondary-wrapper:focus {
+  outline-offset: 0;
+}
+
 .unit-image {
   height: 21.5rem;
   width: 17.55rem;
@@ -2970,6 +2974,7 @@ a:active {
   background-size: contain;
   background-position: center bottom;
 }
+
 
 .unit-image-intro {
   height: 16.32rem;
@@ -3037,10 +3042,6 @@ a:active {
   background-image: url("/images/home/cr7.jpg");
 }
 
-.unit-primary:last-child {
-  margin-bottom: 0;
-}
-
 @media only screen and (min-width: 46em) {
 
   .to-peta {
@@ -3106,6 +3107,10 @@ a:active {
     width: 18.91rem;
 
     background-image: url("/images/home/m-moments.jpg");
+  }
+
+  .unit-primary:last-child {
+    margin-bottom: 0;
   }
 
 }
