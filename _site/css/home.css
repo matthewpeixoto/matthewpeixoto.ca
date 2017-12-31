@@ -1,25 +1,3 @@
-.hero-info{
-  animation: shift .75s .25s ease-out both;
-}
-
-/* .unit-image-intro {
-  animation: shift .75s .25s ease-out both;
-} */
-
-@keyframes shift {
-
-  0% {
-    opacity: 0;
-    transform: translateY(16px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-}
-
 .unit-wrapper {
   height: 31.2rem;
 
@@ -107,10 +85,9 @@
   background-image: url("{{site.baseurl}}/images/home/cr7.jpg");
 }
 
-  .unit-primary:last-child {
-    margin-bottom: 0;
-  }
-
+.unit-primary:last-child {
+  margin-bottom: 0;
+}
 
 @media only screen and (min-width: 46em) {
 
@@ -179,11 +156,6 @@
     background-image: url("{{site.baseurl}}/images/home/m-moments.jpg");
   }
 
-  .unit-cr7 {
-    display: block;
-    visibility: visible;
-  }
-
 }
 
 @media only screen and (min-width: 67em) {
@@ -237,6 +209,11 @@
 
   .unit-image-moments {
     width: 18.97rem;
+  }
+
+  .unit-cr7 {
+    display: block;
+    visibility: visible;
   }
 
 }
