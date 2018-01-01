@@ -3026,15 +3026,19 @@ a:active {
   background-image: url("/images/home/s-moments.jpg");
 }
 
-.unit-image-dive {
-  background-image: url("/images/home/dive.jpg");
-}
-
 .unit-cr7 {
   background-image: url("/images/home/cr7.jpg");
   background-position: center center;
 
   color: #fff;
+}
+
+.unit-image-dive {
+  background-image: url("/images/home/dive.jpg");
+}
+
+.unit-image-waiting-for-the-bus {
+  background-image: url("/images/home/waiting-for-the-bus.jpg");
 }
 
 .unit-primary:nth-child(4) {
