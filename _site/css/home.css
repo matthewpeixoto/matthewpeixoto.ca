@@ -23,7 +23,6 @@
   background-position: center bottom;
 }
 
-
 .unit-image-intro {
   height: 16.32rem;
 
@@ -76,18 +75,18 @@
 }
 
 .unit-image-dive {
-  background-image: url("{{site.baseurl}}/images/home/dive2.jpg");
+  background-image: url("{{site.baseurl}}/images/home/dive.jpg");
 }
 
 .unit-cr7 {
-  display: none;
-  visibility: hidden;
+  background-image: url("{{site.baseurl}}/images/home/cr7.jpg");
+  background-position: center center;
 
   color: #fff;
 }
 
-.unit-image-cr7 {
-  background-image: url("{{site.baseurl}}/images/home/cr7.jpg");
+.unit-primary:nth-child(4) {
+  display: none;
 }
 
 @media only screen and (min-width: 46em) {
@@ -216,7 +215,7 @@
     width: 18.97rem;
   }
 
-  .unit-cr7 {
+  .unit-primary:nth-child(4) {
     display: block;
     visibility: visible;
   }
