@@ -85,9 +85,9 @@
   background-image: url("{{site.baseurl}}/images/home/dive.jpg");
 }
 
-/* .unit-image-waiting-for-the-bus {
+.unit-image-waiting-for-the-bus {
   background-image: url("{{site.baseurl}}/images/home/waiting-for-the-bus.jpg");
-} */
+}
 
 .unit-primary:nth-child(4) {
   display: none;
@@ -160,9 +160,9 @@
     background-image: url("{{site.baseurl}}/images/home/m-moments.jpg");
   }
 
-/*   .unit-primary:last-child {
+  .unit-primary:last-child {
     margin-bottom: 0;
-  } */
+  }
 
 }
 

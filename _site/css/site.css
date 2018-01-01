@@ -3037,9 +3037,9 @@ a:active {
   background-image: url("/images/home/dive.jpg");
 }
 
-/* .unit-image-waiting-for-the-bus {
+.unit-image-waiting-for-the-bus {
   background-image: url("/images/home/waiting-for-the-bus.jpg");
-} */
+}
 
 .unit-primary:nth-child(4) {
   display: none;
@@ -3112,9 +3112,9 @@ a:active {
     background-image: url("/images/home/m-moments.jpg");
   }
 
-/*   .unit-primary:last-child {
+  .unit-primary:last-child {
     margin-bottom: 0;
-  } */
+  }
 
 }
 
