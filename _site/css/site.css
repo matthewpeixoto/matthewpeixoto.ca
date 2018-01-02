@@ -3795,13 +3795,6 @@ a:active {
   background-image: url("/images/home/s-moments.jpg");
 }
 
-.unit-cr7 {
-  background-image: url("/images/home/cr7.jpg");
-  background-position: center center;
-
-  color: #fff;
-}
-
 .unit-image-dive {
   background-image: url("/images/home/dive.jpg");
 }
@@ -3943,6 +3936,13 @@ a:active {
   .unit-primary:nth-child(4) {
     display: block;
     visibility: visible;
+  }
+
+  .unit-cr7 {
+    background-image: url("/images/home/cr7.jpg");
+    background-position: center center;
+
+    color: #fff;
   }
 
 }
