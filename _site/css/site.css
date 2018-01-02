@@ -2950,6 +2950,235 @@ a:active {
 
 }
 
+.unit-wrapper {
+  height: 31.2rem;
+
+  background-color: var(--color-ultralight);
+
+  color: var(--color-text);
+}
+
+.unit-wrapper:focus {
+  outline-offset: -3px;
+}
+
+.unit-secondary-wrapper:focus {
+  outline-offset: 0;
+}
+
+.unit-image {
+  height: 21.5rem;
+  width: 17.55rem;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
+
+.unit-image-intro {
+  height: 16.32rem;
+
+  background-image: url("/images/home/self.jpg");
+}
+
+.unit-secondary-image {
+  height: 100%;
+  width: 100%;
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.unit-sparmetric {
+  background-color: var(--color-dark);
+
+  color: #fff;
+}
+
+.unit-image-sparmetric {
+  background-image: url("/images/home/s-sparmetric.jpg");
+}
+
+.unit-loyal-rescue {
+  background-color: #f1f4fa;
+}
+
+.unit-image-loyal-rescue {
+  width: 21.5rem;
+
+  background-image: url("/images/home/loyal-rescue.jpg");
+}
+
+.unit-image-geomattric {
+  height: 17.55rem;
+  top: 9.86rem;
+
+  background-image: url("/images/home/s-geomattric.jpg");
+}
+
+.unit-moments {
+  background-color: #e0f7fa;
+}
+
+.unit-image-moments {
+  width: 12.1rem;
+
+  background-image: url("/images/home/s-moments.jpg");
+}
+
+.unit-image-dive {
+  background-image: url("/images/home/dive.jpg");
+}
+
+.unit-image-waiting-for-the-bus {
+  background-image: url("/images/home/waiting-for-the-bus.jpg");
+}
+
+.unit-primary:nth-child(4) {
+  display: none;
+}
+
+@media only screen and (min-width: 46em) {
+
+  .to-peta {
+    font-size: 2.0736rem;
+    line-height: 2.8rem;
+  }
+
+  .to-mega {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+  }
+
+  .unit-secondary,
+  .unit-secondary-list {
+    margin-bottom: 0;
+    padding: .35rem;
+  }
+
+  .intro-unit-wrapper {
+    height: 46.6rem;
+  }
+
+  .piece-list {
+    padding-left: .7rem;
+    padding-right: .7rem;
+  }
+
+  .unit-wrapper {
+    height: 39.2rem;
+  }
+
+  .unit-secondary-wrapper {
+    height: 29.4rem;
+  }
+
+  .unit-image {
+    height: 28.1rem;
+    width: 28.1rem;
+  }
+
+  .unit-image-intro {
+    height: 26.12rem;
+  }
+
+  .unit-secondary-image {
+    height: 100%;
+    width: 100%;
+  }
+
+  .unit-image-sparmetric {
+    background-image: url("/images/home/m-sparmetric.jpg");
+  }
+
+  .unit-image-geomattric {
+    height: 21rem;
+    width: 42rem;
+    top: 14rem;
+
+    background-image: url("/images/home/m-geomattric.jpg");
+  }
+
+  .unit-image-moments {
+    width: 18.91rem;
+
+    background-image: url("/images/home/m-moments.jpg");
+  }
+
+  .unit-primary:last-child {
+    margin-bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 67em) {
+
+  .to-peta {
+    font-size: 2.4414rem;
+    line-height: 3.375rem;
+  }
+
+  .to-mega {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
+  .unit-secondary,
+  .unit-secondary-list {
+    padding: .375rem;
+  }
+
+  .piece-list {
+    padding-left: .75rem;
+    padding-right: .75rem;
+  }
+
+  .unit-wrapper {
+    height: 40.5rem;
+  }
+
+  .unit-secondary-wrapper {
+    height: 33rem;
+  }
+
+  .unit-image {
+    height: 28.2rem;
+    width: 28.2rem;
+  }
+
+  .unit-image-intro {
+    height: 26.22rem;
+  }
+
+  .unit-secondary-image {
+    height: 100%;
+    width: 100%;
+  }
+
+  .unit-image-geomattric {
+    width: 56.4rem;
+    top: 10.6rem;
+  }
+
+  .unit-image-moments {
+    width: 18.97rem;
+  }
+
+  .unit-primary:nth-child(4) {
+    display: block;
+    visibility: visible;
+  }
+
+  .unit-cr7 {
+    background-image: url("/images/home/cr7.jpg");
+    background-position: center center;
+
+    color: #fff;
+  }
+
+}
+
+
 .i-app-icon {
   height: 64px;
   width: 64px;

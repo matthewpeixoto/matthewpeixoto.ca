@@ -9,6 +9,7 @@
 {% include_relative buttons.css %}
 {% include_relative nav.css %}
 {% include_relative footer.css %}
+{% include_relative home.css %}
 {% include_relative sparmetric.css %}
 {% include_relative loyal-rescue.css %}
 {% include_relative moments.css %}
