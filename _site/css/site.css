@@ -2730,8 +2730,8 @@ strong {
 }
 
 :root {
-  --color-accent: #0091ea;
-  --color-focus: rgba(0, 145, 234, 0.5);
+  --color-accent: #2196f3;
+  --color-focus: rgba(33, 150, 243, .5);
 
   --color-ultralight: #fafafa;
   --color-light: #f2f2f2;
@@ -2847,7 +2847,11 @@ strong {
 }
 
 .btn:hover {
-  background-color: #00b0ff;
+  background-color: #42a5f5;
+}
+
+.btn:active {
+  background-color: #1e88e5;
 }
 
 .btn-link,
@@ -2861,6 +2865,10 @@ strong {
   background-color: transparent;
   color: var(--color-accent);
   text-decoration: underline;
+}
+
+.btn-link:active{
+  background-color: transparent;
 }
 
 .btn-link-icon:hover {
@@ -2895,6 +2903,9 @@ a:active {
   box-shadow: none;
   outline: none;
 }
+
+
+
 
 .nav {
   min-width: 320px;
@@ -3164,11 +3175,6 @@ a:active {
     width: 18.97rem;
   }
 
-  .unit-primary:nth-child(4) {
-    display: block;
-    visibility: visible;
-  }
-
   .unit-cr7 {
     background-image: url("/images/home/cr7.jpg");
     background-position: center center;
@@ -3176,8 +3182,16 @@ a:active {
     color: #fff;
   }
 
-}
+  @media (pointer: fine) {
 
+    .unit-primary:nth-child(4) {
+      display: block;
+      visibility: visible;
+    }
+
+  }
+
+}
 
 .i-app-icon {
   height: 64px;
@@ -3901,7 +3915,7 @@ a:active {
   -webkit-transform: translateZ(-5px) scale(5);
   transform: translateZ(-5px) scale(5);
 
-  top: 300em;
+  top: 275em;
 }
 
 .asteroids {
@@ -3947,5 +3961,6 @@ a:active {
   }
 
 }
+
 
 

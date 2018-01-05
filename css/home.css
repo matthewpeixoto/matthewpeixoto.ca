@@ -212,11 +212,6 @@
     width: 18.97rem;
   }
 
-  .unit-primary:nth-child(4) {
-    display: block;
-    visibility: visible;
-  }
-
   .unit-cr7 {
     background-image: url("{{site.baseurl}}/images/home/cr7.jpg");
     background-position: center center;
@@ -224,5 +219,13 @@
     color: #fff;
   }
 
-}
+  @media (pointer: fine) {
 
+    .unit-primary:nth-child(4) {
+      display: block;
+      visibility: visible;
+    }
+
+  }
+
+}
