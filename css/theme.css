@@ -27,14 +27,6 @@
   color: var(--color-text);
 }
 
-.light .nav {
-  background-color: rgba(240, 240, 240, .9);
-}
-
-.light .footer {
-  background-color: var(--color-light);
-}
-
 .dark {
   background-color: #000;
 

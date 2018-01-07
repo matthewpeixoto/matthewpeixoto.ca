@@ -2758,14 +2758,6 @@ strong {
   color: var(--color-text);
 }
 
-.light .nav {
-  background-color: rgba(240, 240, 240, .9);
-}
-
-.light .footer {
-  background-color: var(--color-light);
-}
-
 .dark {
   background-color: #000;
 
@@ -2909,6 +2901,8 @@ a:active {
 
 .nav {
   min-width: 320px;
+
+  background-color: rgba(240, 240, 240, .9);
 }
 
 .i-logo {
@@ -3676,7 +3670,7 @@ a:active {
 
 
 .geomattric-hero-container {
-  height: 100vh;
+  min-height: 40em;
 }
 
 .gm-intro-video {

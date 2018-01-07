@@ -1,5 +1,7 @@
 .nav {
   min-width: 320px;
+
+  background-color: rgba(240, 240, 240, .9);
 }
 
 .i-logo {
