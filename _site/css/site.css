@@ -3039,6 +3039,10 @@ a:active {
   background-image: url("/images/home/waiting-for-the-bus.jpg");
 }
 
+.unit-image-nike-branding {
+  background-image: url("/images/home/nike-branding.jpg");
+}
+
 .unit-primary:nth-child(4) {
   display: none;
 }
@@ -3816,13 +3820,13 @@ a:active {
 
 }
 
-.video-container {
+.video-wrapper {
   max-width: 72em;
 }
 
 @media only screen and (min-width: 46em) {
 
-  .video-container {
+  .dive-video-container {
     margin-bottom: 2.8rem;
     padding-top: 2.8rem;
   }
@@ -3831,7 +3835,7 @@ a:active {
 
 @media only screen and (min-width: 67em) {
 
-  .video-container {
+  .dive-video-container {
     margin-bottom: 6rem;
     padding-top: 6rem;
   }
@@ -3954,6 +3958,11 @@ a:active {
     top: 25em;
   }
 
+}
+
+.video-container {
+  height: 100vh;
+  min-height: 50em;
 }
 
 

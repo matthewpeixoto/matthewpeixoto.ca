@@ -1,10 +1,10 @@
-.video-container {
+.video-wrapper {
   max-width: 72em;
 }
 
 @media only screen and (min-width: 46em) {
 
-  .video-container {
+  .dive-video-container {
     margin-bottom: 2.8rem;
     padding-top: 2.8rem;
   }
@@ -13,7 +13,7 @@
 
 @media only screen and (min-width: 67em) {
 
-  .video-container {
+  .dive-video-container {
     margin-bottom: 6rem;
     padding-top: 6rem;
   }
