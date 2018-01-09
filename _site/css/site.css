@@ -2577,7 +2577,7 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-.main {
+.main-max-width {
   margin-left: auto;
   margin-right: auto;
   max-width: 2560px;
@@ -3985,5 +3985,17 @@ a:active {
 
 }
 
+.error-body {
+  background-color: var(--color-light);
+}
+
+.error-message-container {
+  background-color: #fff;
+}
+
+.i-404 {
+  height: 82px;
+  width: 128px;
+}
 
 

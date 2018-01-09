@@ -6,15 +6,15 @@ short- title: Page Not Found
 description: The page you're looking for can't be found.
 og-url: https://www.matthewpeixoto.ca/404/
 permalink: 404.html
+body-class: error-body
 ---
 
-<div class="text-center clear-nav gutter">
-  <div class="wrapper pad-t-4 pad-b-4">
-    <i class="icon i-128 push-2">
-      <img src="https://placehold.it/64x64" alt="" />
+<div class="error-message-container clear-nav">
+  <div class="max-length text-center gutter pad-t-4 pad-b-4">
+    <i class="icon i-404 push-2">
+      <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#404"></use></svg>
     </i>
-    <h1 class="push-1-2">Oh no!</h1>
-    <p class="giga max-length">The page you're looking for can't be found.</p>
+    <h1 class="peta">Oh no! The page you're looking for can't be&nbsp;found.</h1>
     <a class="btn" href="{{site.baseurl}}/">Go to the homepage</a>
   </div>
 </div>

@@ -22,7 +22,7 @@
   <meta name="application-name" content="Matthew Peixoto">
   <meta name="theme-color" content="#ffffff">
 </head>
-<body class="{{page.theme}}">
+<body class="{{page.theme}} {{page.body-class}}">
 
 <nav class="nav text-center absolute w-1 zindex-1000" role="navigation">
   <a class="nav-link ib island-1-2" href="{{site.baseurl}}/" rel="home">
@@ -44,7 +44,7 @@
   </a>
 </nav>
 
-<main class="main" role="main">
+<main class="main {{page.main-class}}" role="main">
   {{content}}
 </main>
 

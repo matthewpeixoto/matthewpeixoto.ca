@@ -1,0 +1,12 @@
+.error-body {
+  background-color: var(--color-light);
+}
+
+.error-message-container {
+  background-color: #fff;
+}
+
+.i-404 {
+  height: 82px;
+  width: 128px;
+}
