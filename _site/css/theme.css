@@ -1,6 +1,8 @@
 :root {
-  --color-accent: #2196f3;
-  --color-focus: rgba(33, 150, 243, .5);
+  --color-accent: #2979ff;
+  --color-accent-light: #448aff;
+  --color-accent-dark: #2962ff;
+  --color-focus: rgba(41, 121, 255, .5);
 
   --color-ultralight: #fafafa;
   --color-light: #f2f2f2;

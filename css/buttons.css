@@ -10,11 +10,11 @@
 }
 
 .btn:hover {
-  background-color: #42a5f5;
+  background-color: var(--color-accent-light);
 }
 
 .btn:active {
-  background-color: #1e88e5;
+  background-color: var(--color-accent-dark);
 }
 
 .btn-link,
@@ -45,6 +45,10 @@
 .i-link {
   height: 1em;
   width: .75em;
+
+  background-image: url("{{site.baseurl}}/images/icons/external-link.svg");
+
+  color: var(--color-accent);
 }
 
 a:focus,

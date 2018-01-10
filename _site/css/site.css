@@ -2592,6 +2592,10 @@ h6 {
   font-weight: 500;
 }
 
+.i-logo-nav {
+  background-image
+}
+
 strong {
   font-weight: 400;
 }
@@ -2730,8 +2734,10 @@ strong {
 }
 
 :root {
-  --color-accent: #2196f3;
-  --color-focus: rgba(33, 150, 243, .5);
+  --color-accent: #2979ff;
+  --color-accent-light: #448aff;
+  --color-accent-dark: #2962ff;
+  --color-focus: rgba(41, 121, 255, .5);
 
   --color-ultralight: #fafafa;
   --color-light: #f2f2f2;
@@ -2839,11 +2845,11 @@ strong {
 }
 
 .btn:hover {
-  background-color: #42a5f5;
+  background-color: var(--color-accent-light);
 }
 
 .btn:active {
-  background-color: #1e88e5;
+  background-color: var(--color-accent-dark);
 }
 
 .btn-link,
@@ -2874,6 +2880,10 @@ strong {
 .i-link {
   height: 1em;
   width: .75em;
+
+  background-image: url("/images/icons/external-link.svg");
+
+  color: var(--color-accent);
 }
 
 a:focus,
