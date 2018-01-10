@@ -24,8 +24,8 @@ h6 {
   font-weight: 500;
 }
 
-.i-logo-nav {
-  background-image
+.i-xd {
+  background-image: url('{{site.baseurl}}/images/icons/xd.svg');
 }
 
 strong {
