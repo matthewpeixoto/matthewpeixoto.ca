@@ -82,8 +82,8 @@
   background-image: url("{{site.baseurl}}/images/home/waiting-for-the-bus.jpg");
 }
 
-.unit-image-nike-branding {
-  background-image: url("{{site.baseurl}}/images/home/nike-branding.jpg");
+.unit-image-nike-brand-identity {
+  background-image: url("{{site.baseurl}}/images/home/nike-brand-identity.jpg");
 }
 
 .unit-primary:nth-child(4) {
