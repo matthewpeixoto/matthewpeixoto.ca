@@ -2609,7 +2609,7 @@ strong {
 }
 
 .clear-nav {
-  padding-top: 2.625rem;
+  padding-top: 2.61rem;
 }
 
 .push-4 {
@@ -2653,6 +2653,10 @@ strong {
 }
 
 @media only screen and (min-width: 46em) {
+
+  .clear-nav {
+    padding-top: 2.65rem;
+  }
 
   .text-left-center {
     text-align: center;
@@ -2703,6 +2707,10 @@ strong {
 
 @media only screen and (min-width: 67em) {
 
+  .clear-nav {
+    padding-top: 2.75rem;
+  }
+
   .push-4 {
     margin-bottom: 6rem;
   }
@@ -2746,6 +2754,14 @@ strong {
 
   --color-text: #111;
   --font-primary: roboto, sans-serif;
+}
+
+.body-bg-light {
+  background-color: var(--color-light);
+}
+
+.bg-white {
+  background-color: #fff;
 }
 
 .color-white {
@@ -3831,13 +3847,17 @@ a:active {
 }
 
 .video-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+
   max-width: 72em;
 }
 
 @media only screen and (min-width: 46em) {
 
-  .dive-video-container {
-    margin-bottom: 2.8rem;
+  .video-wrapper {
+    margin-bottom: 0;
+    padding-bottom: 2.8rem;
     padding-top: 2.8rem;
   }
 
@@ -3845,8 +3865,8 @@ a:active {
 
 @media only screen and (min-width: 67em) {
 
-  .dive-video-container {
-    margin-bottom: 6rem;
+  .video-wrapper {
+    padding-bottom: 6rem;
     padding-top: 6rem;
   }
 
@@ -3970,7 +3990,7 @@ a:active {
 
 }
 
-@media only screen and (min-width: 46em) {
+/* @media only screen and (min-width: 46em) {
 
   .nike-branding-video-container {
     height: 100vh;
@@ -3994,14 +4014,7 @@ a:active {
   }
 
 }
-
-.error-body {
-  background-color: var(--color-light);
-}
-
-.error-message-container {
-  background-color: #fff;
-}
+ */
 
 .i-404 {
   height: 82px;

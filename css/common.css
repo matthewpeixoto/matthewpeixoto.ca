@@ -41,7 +41,7 @@ strong {
 }
 
 .clear-nav {
-  padding-top: 2.625rem;
+  padding-top: 2.61rem;
 }
 
 .push-4 {
@@ -85,6 +85,10 @@ strong {
 }
 
 @media only screen and (min-width: 46em) {
+
+  .clear-nav {
+    padding-top: 2.65rem;
+  }
 
   .text-left-center {
     text-align: center;
@@ -134,6 +138,10 @@ strong {
 }
 
 @media only screen and (min-width: 67em) {
+
+  .clear-nav {
+    padding-top: 2.75rem;
+  }
 
   .push-4 {
     margin-bottom: 6rem;
