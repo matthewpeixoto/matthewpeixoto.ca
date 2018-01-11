@@ -80,8 +80,11 @@ strong {
   height: 100vh;
 }
 
-.blended {
-  mix-blend-mode: multiply;
+.video-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 72em;
 }
 
 @media only screen and (min-width: 46em) {
@@ -135,6 +138,12 @@ strong {
     margin-right: 1.4rem;
   }
 
+  .video-wrapper {
+    margin-bottom: 0;
+    padding-bottom: 2.8rem;
+    padding-top: 2.8rem;
+  }
+
 }
 
 @media only screen and (min-width: 67em) {
@@ -169,6 +178,11 @@ strong {
 
   .m-push-r {
     margin-right: 1.5rem;
+  }
+
+  .video-wrapper {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
   }
 
 }

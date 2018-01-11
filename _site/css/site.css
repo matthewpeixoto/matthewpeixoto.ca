@@ -2648,8 +2648,11 @@ strong {
   height: 100vh;
 }
 
-.blended {
-  mix-blend-mode: multiply;
+.video-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 72em;
 }
 
 @media only screen and (min-width: 46em) {
@@ -2703,6 +2706,12 @@ strong {
     margin-right: 1.4rem;
   }
 
+  .video-wrapper {
+    margin-bottom: 0;
+    padding-bottom: 2.8rem;
+    padding-top: 2.8rem;
+  }
+
 }
 
 @media only screen and (min-width: 67em) {
@@ -2737,6 +2746,11 @@ strong {
 
   .m-push-r {
     margin-right: 1.5rem;
+  }
+
+  .video-wrapper {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
   }
 
 }
@@ -3846,35 +3860,6 @@ a:active {
 
 }
 
-.video-wrapper {
-  margin-left: auto;
-  margin-right: auto;
-
-  max-width: 72em;
-}
-
-@media only screen and (min-width: 46em) {
-
-  .video-wrapper {
-    margin-bottom: 0;
-    padding-bottom: 2.8rem;
-    padding-top: 2.8rem;
-  }
-
-}
-
-@media only screen and (min-width: 67em) {
-
-  .video-wrapper {
-    padding-bottom: 6rem;
-    padding-top: 6rem;
-  }
-
-}
-
-
-
-
 .cr7-html {
   overflow: hidden;
 }
@@ -3989,32 +3974,6 @@ a:active {
   }
 
 }
-
-/* @media only screen and (min-width: 46em) {
-
-  .nike-branding-video-container {
-    height: 100vh;
-    min-height: 50em;
-
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-align-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    -webkit-flex-direction: column wrap;
-    -ms-flex-direction: column wrap;
-    flex-flow: column wrap;
-  }
-
-}
- */
 
 .i-404 {
   height: 82px;
