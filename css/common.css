@@ -5,6 +5,14 @@ html {
   font-family: sans-serif;
 }
 
+body {
+  background-color: var(--color-light);
+}
+
+main {
+  background-color: #fff;
+}
+
 .fonts-loaded {
   font-family: "Roboto", sans-serif;
 }
@@ -24,12 +32,12 @@ h6 {
   font-weight: 500;
 }
 
-.i-xd {
-  background-image: url('{{site.baseurl}}/images/icons/xd.svg');
-}
-
 strong {
   font-weight: 400;
+}
+
+.i-xd {
+  background-image: url('{{site.baseurl}}/images/icons/xd.svg');
 }
 
 .medium {

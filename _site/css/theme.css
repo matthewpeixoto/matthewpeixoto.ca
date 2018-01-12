@@ -13,14 +13,6 @@
   --font-primary: roboto, sans-serif;
 }
 
-.body-bg-light {
-  background-color: var(--color-light);
-}
-
-.bg-white {
-  background-color: #fff;
-}
-
 .color-white {
   color: #fff;
 }

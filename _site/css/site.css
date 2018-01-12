@@ -2573,6 +2573,14 @@ html {
   font-family: sans-serif;
 }
 
+body {
+  background-color: var(--color-light);
+}
+
+main {
+  background-color: #fff;
+}
+
 .fonts-loaded {
   font-family: "Roboto", sans-serif;
 }
@@ -2592,12 +2600,12 @@ h6 {
   font-weight: 500;
 }
 
-.i-xd {
-  background-image: url('/images/icons/xd.svg');
-}
-
 strong {
   font-weight: 400;
+}
+
+.i-xd {
+  background-image: url('/images/icons/xd.svg');
 }
 
 .medium {
@@ -2768,14 +2776,6 @@ strong {
 
   --color-text: #111;
   --font-primary: roboto, sans-serif;
-}
-
-.body-bg-light {
-  background-color: var(--color-light);
-}
-
-.bg-white {
-  background-color: #fff;
 }
 
 .color-white {
@@ -3023,7 +3023,7 @@ a:active {
 .unit-image-intro {
   height: 16.32rem;
 
-  background-image: url("/images/home/self.jpg");
+  background-image: url("/images/home/matthew-peixoto-portrait.jpg");
 }
 
 .unit-secondary-image {
