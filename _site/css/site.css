@@ -2608,6 +2608,13 @@ strong {
   background-image: url('/images/icons/xd.svg');
 }
 
+.i-404 {
+  height: 82px;
+  width: 128px;
+
+  color: #888;
+}
+
 .medium {
   font-weight: 500;
 }
@@ -3573,14 +3580,6 @@ a:active {
   min-height: 45rem;
 }
 
-/* .image-user {
-  height: 50;
-  width: 100%;
-  background-image: url("../images/moments/user-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
 .moments-hero-image {
   margin-left: auto;
   margin-right: auto;
@@ -3635,18 +3634,6 @@ a:active {
   }
 
 }
-
-/* .moments-intro-copy {
-  opacity: 0;
-  transform: translateY(16px);
-
-  transition: all .75s .25s ease-out;
-}
-
-.js-moments-intro-copy-animate {
-  opacity: 1;
-  transform: translateY(0);
-} */
 
 .image-moments-symbolism {
   height: 17.13em;
@@ -3973,13 +3960,6 @@ a:active {
     top: 25em;
   }
 
-}
-
-.i-404 {
-  height: 82px;
-  width: 128px;
-
-  color: #888;
 }
 
 

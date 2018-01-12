@@ -40,6 +40,13 @@ strong {
   background-image: url('{{site.baseurl}}/images/icons/xd.svg');
 }
 
+.i-404 {
+  height: 82px;
+  width: 128px;
+
+  color: #888;
+}
+
 .medium {
   font-weight: 500;
 }
