@@ -219,6 +219,7 @@
   .unit-cr7 {
     background-image: url("{{site.baseurl}}/images/home/cr7.jpg");
     background-position: center center;
+    background-repeat: no-repeat;
 
     color: #fff;
   }

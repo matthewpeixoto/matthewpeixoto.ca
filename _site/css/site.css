@@ -2585,7 +2585,7 @@ main {
   font-family: "Roboto", sans-serif;
 }
 
-.max-width-2560 {
+.wrapper-home {
   margin-left: auto;
   margin-right: auto;
   max-width: 2560px;
@@ -3090,7 +3090,7 @@ a:active {
   background-image: url("/images/home/nike-brand-identity.jpg");
 }
 
-.unit-primary:nth-child(4) {
+.unit-primary:nth-child(2) {
   display: none;
 }
 
@@ -3223,13 +3223,14 @@ a:active {
   .unit-cr7 {
     background-image: url("/images/home/cr7.jpg");
     background-position: center center;
+    background-repeat: no-repeat;
 
     color: #fff;
   }
 
   @media (pointer: fine) {
 
-    .unit-primary:nth-child(4) {
+    .unit-primary:nth-child(2) {
       display: block;
       visibility: visible;
     }
