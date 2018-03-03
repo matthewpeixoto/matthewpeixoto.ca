@@ -3090,7 +3090,7 @@ a:active {
   background-image: url("/images/home/nike-brand-identity.jpg");
 }
 
-.unit-primary:nth-child(2) {
+.unit-primary:first-child {
   display: none;
 }
 
@@ -3231,7 +3231,7 @@ a:active {
 
   @media (pointer: fine) {
 
-    .unit-primary:nth-child(2) {
+    .unit-primary:first-child {
       display: block;
       visibility: visible;
     }

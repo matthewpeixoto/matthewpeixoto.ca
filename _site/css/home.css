@@ -86,7 +86,7 @@
   background-image: url("{{site.baseurl}}/images/home/nike-brand-identity.jpg");
 }
 
-.unit-primary:nth-child(2) {
+.unit-primary:first-child {
   display: none;
 }
 
@@ -227,7 +227,7 @@
 
   @media (pointer: fine) {
 
-    .unit-primary:nth-child(2) {
+    .unit-primary:first-child {
       display: block;
       visibility: visible;
     }
