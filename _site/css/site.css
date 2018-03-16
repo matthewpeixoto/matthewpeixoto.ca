@@ -3041,6 +3041,15 @@ a:active {
   background-position: center center;
 }
 
+.unit-sizzle-reel {
+  background-image: url("/images/home/sizzle-reel.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+}
+
 .unit-sparmetric {
   background-color: var(--color-dark);
 
