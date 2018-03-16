@@ -37,15 +37,6 @@
   background-position: center center;
 }
 
-.unit-sizzle-reel {
-  background-image: url("{{site.baseurl}}/images/home/sizzle-reel.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  color: #fff;
-}
-
 .unit-sparmetric {
   background-color: var(--color-dark);
 
@@ -89,6 +80,14 @@
 
 .unit-image-waiting-for-the-bus {
   background-image: url("{{site.baseurl}}/images/home/waiting-for-the-bus.jpg");
+}
+
+.unit-sizzle-reel {
+  color: #fff;
+}
+
+.unit-image-sizzle-reel {
+  background-image: url("{{site.baseurl}}/images/home/sizzle-reel.jpg");
 }
 
 .unit-image-nike-brand-identity {
