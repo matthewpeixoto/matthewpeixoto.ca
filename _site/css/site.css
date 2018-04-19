@@ -3940,6 +3940,10 @@ a:active {
   animation: asteroids-float 120s ease-out forwards;
 }
 
+.cr7 footer {
+  display: none;
+}
+
 @keyframes boots-float {
 
   0% {
