@@ -3028,9 +3028,9 @@ a:active {
 }
 
 .unit-image-intro {
-  height: 16.32rem;
+  height: 17.55rem;
 
-  background-image: url("/images/home/matthew-peixoto-portrait.jpg");
+  background-image: url("/images/home/matthew-peixoto.jpg");
 }
 
 .unit-secondary-image {
@@ -3142,10 +3142,6 @@ a:active {
     width: 28.1rem;
   }
 
-  .unit-image-intro {
-    height: 26.12rem;
-  }
-
   .unit-secondary-image {
     height: 100%;
     width: 100%;
@@ -3208,10 +3204,6 @@ a:active {
   .unit-image {
     height: 28.2rem;
     width: 28.2rem;
-  }
-
-  .unit-image-intro {
-    height: 26.22rem;
   }
 
   .unit-secondary-image {
