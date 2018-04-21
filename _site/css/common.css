@@ -40,6 +40,10 @@ strong {
   background-image: url('{{site.baseurl}}/images/icons/xd.svg');
 }
 
+.z-index-3000 {
+  z-index: 3000;
+}
+
 .i-404 {
   height: 82px;
   width: 128px;
