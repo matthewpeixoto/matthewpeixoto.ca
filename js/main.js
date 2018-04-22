@@ -28,3 +28,13 @@ $win.on('scroll', function () {
   var top = ($win.scrollTop() - ($win.scrollTop() * 2)) / 10;
   $geomattricShift.css('transform', 'translateY(' + top + 'px)')
 });
+
+$('.js-animate').each(function(){
+
+    var self = $(this);
+
+    $(this).waypoint(function () {
+      self.addClass('js-animated');
+    }, {offset: '90%'});
+
+})
