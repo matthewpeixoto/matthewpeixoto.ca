@@ -7,10 +7,17 @@
   animation: gm-video-animate 1s ease-in-out .5s forwards;
 }
 
-.gm-intro-copy {
+ .gm-intro-animate {
   opacity: 0;
   transform: translateY(80px);
   animation: gm-copy-animate 1s ease-in-out 1.5s forwards;
+}
+
+
+.gm-intro-animate-2 {
+  opacity: 0;
+  transform: translateY(80px);
+  animation: gm-copy-animate 1s ease-in-out 1.65s forwards;
 }
 
 
