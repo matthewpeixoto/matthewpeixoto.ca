@@ -51,15 +51,6 @@
   color: var(--color-accent);
 }
 
-.i-play {
-  height: 1em;
-  width: 1em;
-
-  background-image: url("{{site.baseurl}}/images/icons/play-circle.svg");
-
-  color: var(--color-accent);
-}
-
 a:focus,
 [tabindex="0"]:focus,
 details:focus,
