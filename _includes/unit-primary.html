@@ -1,8 +1,12 @@
 <li class="unit-primary push-1-2 chop">
   <a class="unit-{{include.class}} unit-wrapper h-w-1 link-box relative" href="{{site.baseurl}}/{{include.class}}">
-    <div class="text-center gutter pad-t-2">
-      <h2 class="exa push-0">{{include.title}}</h2>
-      <h3 class="giga push-0 not-bold">{{include.subtitle}}</h3>
+    <div class="text-center gutter pad-t-2 relative zindex-1000">
+      <h2 class="push-0">{{include.title}}</h2>
+      <h3 class="giga push-1-4 not-bold">{{include.subtitle}}</h3>
+      <div class="btn btn-link btn-link-icon mega">
+        <span class="link-text">{{include.cta}}</span>
+        <i class="icon {{include.cta-icon}}"></i>
+      </div>
     </div>
     <div class="h-1 w-1 pin-tl">
       <figure class="unit-image unit-image-{{include.class}} push-0 pin-bc"></figure>

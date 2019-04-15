@@ -2927,6 +2927,27 @@ strong {
   color: var(--color-accent);
 }
 
+.i-play {
+  height: 1em;
+  width: 1em;
+  margin-left: 2px;
+
+  background-image: url("../images/play-circle.svg");
+
+  color: var(--color-accent);
+}
+
+.i-chevron {
+  height: 1em;
+  width: .5em;
+  margin-left: 2px;
+
+  background-image: url("/images/chevron.svg");
+
+  color: var(--color-accent);
+}
+
+
 a:focus,
 [tabindex="0"]:focus,
 details:focus,
@@ -3012,6 +3033,10 @@ a:active {
   background-color: var(--color-ultralight);
 
   color: var(--color-text);
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
 }
 
 .unit-wrapper:focus {
