@@ -54,7 +54,8 @@
 .i-play {
   height: 1em;
   width: 1em;
-  margin-left: 2px;
+  margin-left: .1em;
+  margin-bottom: .1em;
 
   background-image: url("../images/play-circle.svg");
 
