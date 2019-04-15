@@ -2933,7 +2933,7 @@ strong {
   margin-left: .1em;
   margin-bottom: .1em;
 
-  background-image: url("../images/play-circle.svg");
+  background-image: url("../images/icons/play-circle.svg");
 
   color: var(--color-accent);
 }
@@ -2943,7 +2943,7 @@ strong {
   width: .5em;
   margin-left: 2px;
 
-  background-image: url("/images/chevron.svg");
+  background-image: url("/images/icons/chevron.svg");
 
   color: var(--color-accent);
 }

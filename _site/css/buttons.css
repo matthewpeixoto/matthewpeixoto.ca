@@ -57,7 +57,7 @@
   margin-left: .1em;
   margin-bottom: .1em;
 
-  background-image: url("../images/play-circle.svg");
+  background-image: url("../images/icons/play-circle.svg");
 
   color: var(--color-accent);
 }
@@ -67,7 +67,7 @@
   width: .5em;
   margin-left: 2px;
 
-  background-image: url("{{site.baseurl}}/images/chevron.svg");
+  background-image: url("{{site.baseurl}}/images/icons/chevron.svg");
 
   color: var(--color-accent);
 }
