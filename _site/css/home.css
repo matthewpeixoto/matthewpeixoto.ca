@@ -6,6 +6,10 @@
   color: var(--color-text);
 }
 
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .unit-wrapper:focus {
   outline-offset: -3px;
 }
