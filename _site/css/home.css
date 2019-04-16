@@ -90,6 +90,14 @@
   color: #fff;
 }
 
+.unit-mcm-poster {
+  background-image: url("{{site.baseurl}}/images/home/s-mcm-poster.jpg");
+  background-size: cover;
+  background-position: center center;
+ 
+  color: #fff;
+}
+
 .unit-image-sizzle-reel {
   background-image: url("{{site.baseurl}}/images/home/sizzle-reel.jpg");
 }
@@ -227,6 +235,10 @@
     background-size: cover;
 
     color: #fff;
+  }
+
+  .unit-mcm-poster {
+    background-image: url("{{site.baseurl}}/images/home/l-mcm-poster.jpg");
   }
 
   @media (pointer: fine) {
