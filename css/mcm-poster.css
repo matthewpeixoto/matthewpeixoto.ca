@@ -1,0 +1,11 @@
+.thumbnail-scrim {
+  transition: 500ms background-color cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+.thumbnail-link {
+  cursor: pointer;
+}
+
+.thumbnail-link:hover .thumbnail-scrim {
+  background: rgba(0,0,0,0.35);
+}
