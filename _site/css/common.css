@@ -106,6 +106,10 @@ strong {
   max-width: 72em;
 }
 
+.embed-16by10, .embed--16by10 {
+  padding-top: 62.5%;
+}
+
 @media only screen and (min-width: 46em) {
 
   .clear-nav {

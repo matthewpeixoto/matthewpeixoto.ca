@@ -2674,6 +2674,10 @@ strong {
   max-width: 72em;
 }
 
+.embed-16by10, .embed--16by10 {
+  padding-top: 62.5%;
+}
+
 @media only screen and (min-width: 46em) {
 
   .clear-nav {
@@ -2933,7 +2937,7 @@ strong {
   margin-left: .1em;
   margin-bottom: .1em;
 
-  background-image: url("../images/icons/play-circle.svg");
+  background-image: url("/images/icons/play-circle.svg");
 
   color: var(--color-accent);
 }
@@ -3120,7 +3124,7 @@ a:active {
   background-image: url("/images/home/s-mcm-poster.jpg");
   background-size: cover;
   background-position: center center;
-
+ 
   color: #fff;
 }
 
@@ -4051,16 +4055,24 @@ a:active {
   opacity: 1;
 }
 
-.thumbnail-scrim {
+.thumbnail-embed::before {
   transition: 500ms background-color cubic-bezier(0.4, 0, 0.6, 1);
+  content: ' ';
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
-.thumbnail-link {
-  cursor: pointer;
-}
-
-.thumbnail-link:hover .thumbnail-scrim {
+.thumbnail-link:hover .thumbnail-embed::before {
   background: rgba(0,0,0,0.35);
+}
+
+.thumbail-link {
+  cursor: pointer;
 }
 
 
