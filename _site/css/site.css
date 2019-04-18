@@ -3121,7 +3121,7 @@ a:active {
 }
 
 .unit-mcmillan-newbie-posters {
-  background-image: url("/images/home/s-mcm-poster.jpg");
+  background-image: url("/images/home/s-mcmillan-newbie-posters.jpg");
   background-size: cover;
   background-position: center center;
  
@@ -3268,7 +3268,7 @@ a:active {
   }
 
   .unit-mcmillan-newbie-posters {
-    background-image: url("/images/home/l-mcm-poster.jpg");
+    background-image: url("/images/home/l-mcmillan-newbie-posters.jpg");
   }
 
   @media (pointer: fine) {
