@@ -57,7 +57,7 @@
   margin-left: .1em;
   margin-bottom: .1em;
 
-  background-image: url("{{site.baseurl}}/images/icons/play-circle.svg");
+  background-image: url("../images/icons/play-circle.svg");
 
   color: var(--color-accent);
 }
@@ -92,6 +92,3 @@ a:active {
   box-shadow: none;
   outline: none;
 }
-
-
-

@@ -2933,7 +2933,7 @@ strong {
   margin-left: .1em;
   margin-bottom: .1em;
 
-  background-image: url("/images/icons/play-circle.svg");
+  background-image: url("../images/icons/play-circle.svg");
 
   color: var(--color-accent);
 }
@@ -2968,10 +2968,6 @@ a:active {
   box-shadow: none;
   outline: none;
 }
-
-
-
-
 .nav {
   min-width: 320px;
 
@@ -3120,6 +3116,14 @@ a:active {
   color: #fff;
 }
 
+.unit-mcm-poster {
+  background-image: url("/images/home/s-mcm-poster.jpg");
+  background-size: cover;
+  background-position: center center;
+
+  color: #fff;
+}
+
 .unit-image-sizzle-reel {
   background-image: url("/images/home/sizzle-reel.jpg");
 }
@@ -3257,6 +3261,10 @@ a:active {
     background-size: cover;
 
     color: #fff;
+  }
+
+  .unit-mcm-poster {
+    background-image: url("/images/home/l-mcm-poster.jpg");
   }
 
   @media (pointer: fine) {
@@ -4041,6 +4049,18 @@ a:active {
 .js-animated {
   transform: none;
   opacity: 1;
+}
+
+.thumbnail-scrim {
+  transition: 500ms background-color cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+.thumbnail-link {
+  cursor: pointer;
+}
+
+.thumbnail-link:hover .thumbnail-scrim {
+  background: rgba(0,0,0,0.35);
 }
 
 
