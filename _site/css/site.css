@@ -3060,7 +3060,12 @@ a:active {
 .unit-image-intro {
   height: 17.55rem;
 
-  background-image: url("/images/home/matthew-peixoto.jpg");
+  /* background-image: url("/images/home/matthew-peixoto.jpg"); */
+  background-image: url("/images/home/matthew-peixoto-colour.png");
+}
+
+.theme-intro {
+  background: linear-gradient(to bottom, #eaeaea 0%, #fafafa 100%);
 }
 
 .unit-secondary-image {
