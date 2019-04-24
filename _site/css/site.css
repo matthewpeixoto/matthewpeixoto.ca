@@ -3134,7 +3134,7 @@ a:active {
 }
 
 .unit-image-sizzle-reel {
-  background-image: url("/images/home/sizzle-reel.jpg");
+  background-image: url("/images/home/s-sizzle-reel.jpg");
 }
 
 .unit-image-nike-brand-identity {
@@ -3274,6 +3274,10 @@ a:active {
 
   .unit-mcmillan-newbie-posters {
     background-image: url("/images/home/l-mcmillan-newbie-posters.jpg");
+  }
+
+  .unit-image-sizzle-reel {
+    background-image: url("/images/home/l-sizzle-reel.jpg");
   }
 
   @media (pointer: fine) {

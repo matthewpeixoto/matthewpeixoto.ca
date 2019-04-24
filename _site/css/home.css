@@ -104,7 +104,7 @@
 }
 
 .unit-image-sizzle-reel {
-  background-image: url("{{site.baseurl}}/images/home/sizzle-reel.jpg");
+  background-image: url("{{site.baseurl}}/images/home/s-sizzle-reel.jpg");
 }
 
 .unit-image-nike-brand-identity {
@@ -244,6 +244,10 @@
 
   .unit-mcmillan-newbie-posters {
     background-image: url("{{site.baseurl}}/images/home/l-mcmillan-newbie-posters.jpg");
+  }
+
+  .unit-image-sizzle-reel {
+    background-image: url("{{site.baseurl}}/images/home/l-sizzle-reel.jpg");
   }
 
   @media (pointer: fine) {
